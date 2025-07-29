@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import cardsImage from "@/assets/cards-collection.jpg";
+const cardsImage = "/lovable-uploads/0077581c-f584-44e7-b091-1a281d9aa385.png";
 import { Check, Download, Gift, Heart } from "lucide-react";
 
 const features = [
@@ -26,7 +26,7 @@ const ProductSection = () => {
             <div className="relative">
               <img 
                 src={cardsImage} 
-                alt="Coleção de 80 cards de bênção DOMUS 2025" 
+                alt="Declarando Bênçãos - Cards de Autoconfiança e Autodisciplina baseados na Palavra de Deus" 
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
               

@@ -1,4 +1,4 @@
-import criadoreImage from "@/assets/criadora-domus.jpg";
+const criadoreImage = "/lovable-uploads/f85da76d-5129-46bb-bc58-2119b31ac2eb.png";
 import { Heart, Users, Star } from "lucide-react";
 
 const AboutSection = () => {
@@ -66,7 +66,7 @@ const AboutSection = () => {
             <div className="relative">
               <img 
                 src={criadoreImage} 
-                alt="Criadora DOMUS" 
+                alt="Caixa Declarando Bênçãos com card destacado mostrando os 80 temas essenciais" 
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
               
