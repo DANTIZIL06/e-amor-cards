@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "/lovable-uploads/fc226823-ccaa-403b-8b6c-ba65d3c1a05d.png";
 import { Heart, Star, Gift } from "lucide-react";
 const HeroSection = () => {
   const scrollToTarget = () => {
@@ -58,7 +57,7 @@ const HeroSection = () => {
           animationDelay: '0.3s'
         }}>
             <div className="relative z-10">
-              <img src={heroImage} alt="Produto Declarando Bençãos - Caixa com 80 cards de bênçãos baseados na Palavra de Deus" className="w-full h-auto rounded-2xl shadow-2xl" />
+              <img src="/lovable-uploads/fc226823-ccaa-403b-8b6c-ba65d3c1a05d.png" alt="Produto Declarando Bençãos - Caixa com 80 cards de bênçãos baseados na Palavra de Deus" className="w-full h-auto rounded-2xl shadow-2xl" />
             </div>
             
             {/* Elementos decorativos */}
