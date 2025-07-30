@@ -1,6 +1,6 @@
 const EmotionalTextSection = () => {
   return (
-    <section className="py-6 sm:py-10 md:py-12 px-4 sm:px-6 bg-verde-claro/30">
+    <section className="py-16 lg:py-10 px-4 sm:px-6 bg-verde-claro/30">
       <div className="container mx-auto max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 xl:gap-16 items-center">
           {/* Texto emocional à esquerda */}
