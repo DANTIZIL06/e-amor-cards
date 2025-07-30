@@ -34,14 +34,14 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="py-20 px-4">
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6">
       <div className="container mx-auto max-w-4xl">
         {/* Título da seção */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-musgo mb-4">
+        <div className="text-center mb-12 sm:mb-16 animate-fade-in">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-musgo mb-3 sm:mb-4">
             Perguntas Frequentes
           </h2>
-          <p className="text-lg text-muted-foreground">
+          <p className="text-sm sm:text-base md:text-lg text-muted-foreground px-2 sm:px-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
           </p>
         </div>
@@ -53,12 +53,12 @@ const FAQSection = () => {
               <AccordionItem 
                 key={index} 
                 value={`item-${index}`}
-                className="bg-white rounded-xl shadow-[var(--shadow-card)] border-0 px-6"
+                className="bg-white rounded-xl shadow-[var(--shadow-card)] border-0 px-3 sm:px-4 md:px-6 mx-2 sm:mx-0"
               >
-                <AccordionTrigger className="text-left font-semibold text-musgo hover:no-underline py-6">
+                <AccordionTrigger className="text-left font-semibold text-musgo hover:no-underline py-3 sm:py-4 md:py-6 text-sm sm:text-base">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed pb-6">
+                <AccordionContent className="text-muted-foreground leading-relaxed pb-3 sm:pb-4 md:pb-6 text-xs sm:text-sm">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
