@@ -8,9 +8,9 @@ const HeroSection = () => {
       behavior: "smooth"
     });
   };
-  return <section className="gradient-hero min-h-screen flex items-center justify-center px-3 sm:px-6 py-12 sm:py-16 md:py-20">
+  return <section className="gradient-hero min-h-screen flex items-center justify-center px-3 sm:px-6 py-12 sm:py-16 md:pt-16 md:pb-20">
       <div className="container mx-auto max-w-7xl">
-        <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 md:items-start items-center">
           {/* Conteúdo Textual */}
           <div className="text-center lg:text-left space-y-4 animate-fade-in">
             {/* Badge de novidade */}
