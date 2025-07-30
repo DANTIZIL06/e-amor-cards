@@ -40,6 +40,19 @@ const HeroSection = () => {
               </div>
             </div>
             
+            {/* Imagem Hero - Visível apenas no mobile */}
+            <div className="relative animate-fade-in lg:hidden" style={{
+              animationDelay: '0.3s'
+            }}>
+              <div className="relative z-10">
+                <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[280px] h-auto rounded-2xl mx-auto" />
+              </div>
+              
+              {/* Elementos decorativos - reduzidos no mobile */}
+              <div className="absolute -top-2 -right-2 w-12 h-12 bg-verde-claro rounded-full opacity-60 animate-bounce-soft"></div>
+              <div className="absolute -bottom-3 -left-3 w-16 h-16 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft"></div>
+            </div>
+            
             {/* Call to Action */}
             <div className="space-y-4">
               <Button onClick={scrollToTarget} className="btn-primary text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 w-full lg:w-auto min-h-[48px]">Quero o Meu Declarando Bênçãos</Button>
@@ -49,15 +62,15 @@ const HeroSection = () => {
             </div>
           </div>
           
-          {/* Imagem Hero */}
-          <div className="relative animate-fade-in mt-8 lg:mt-0" style={{
-          animationDelay: '0.3s'
-        }}>
+          {/* Imagem Hero - Visível apenas no desktop */}
+          <div className="relative animate-fade-in mt-8 lg:mt-0 hidden lg:block" style={{
+            animationDelay: '0.3s'
+          }}>
             <div className="relative z-10">
               <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[400px] sm:max-w-none h-auto rounded-2xl mx-auto" />
             </div>
             
-            {/* Elementos decorativos - reduzidos no mobile */}
+            {/* Elementos decorativos */}
             <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 w-12 h-12 sm:w-24 sm:h-24 bg-verde-claro rounded-full opacity-60 animate-bounce-soft"></div>
             <div className="absolute -bottom-3 -left-3 sm:-bottom-6 sm:-left-6 w-16 h-16 sm:w-32 sm:h-32 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft"></div>
           </div>
