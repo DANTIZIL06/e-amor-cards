@@ -187,6 +187,6 @@ Paleta específica para conversão e conexão emocional
   }
 
   .btn-floating {
-    @apply fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-gradient-primary text-white font-bold py-2 px-3 sm:py-3 sm:px-6 rounded-full shadow-[var(--shadow-floating)] hover:shadow-[var(--shadow-glow)] transition-all duration-300 hover:-translate-y-1 z-40;
+    @apply fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-primary text-white font-bold py-2 px-3 sm:py-3 sm:px-6 rounded-full shadow-[var(--shadow-floating)] hover:shadow-[var(--shadow-glow)] transition-all duration-300 hover:-translate-y-1 z-40;
   }
 }
