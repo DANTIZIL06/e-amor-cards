@@ -3,6 +3,7 @@ import NewBenefitsSection from "@/components/NewBenefitsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import EmotionalTextSection from "@/components/EmotionalTextSection";
 import ProductSection from "@/components/ProductSection";
+import ProductFeaturesSection from "@/components/ProductFeaturesSection";
 import BonusSection from "@/components/BonusSection";
 import AboutSection from "@/components/AboutSection";
 import FAQSection from "@/components/FAQSection";
@@ -19,6 +20,7 @@ const Index = () => {
       <EmotionalTextSection />
       <NewBenefitsSection />
       <ProductSection />
+      <ProductFeaturesSection />
       
       {/* Bonus Image Section */}
       <section className="py-8 px-4 bg-gradient-to-b from-secondary/10 to-background">
