@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
           {/* Conteúdo Textual */}
-          <div className="text-center lg:text-left space-y-8 animate-fade-in">
+          <div className="text-center lg:text-left space-y-4 animate-fade-in">
             {/* Badge de novidade */}
             
             
@@ -41,11 +41,11 @@ const HeroSection = () => {
             </div>
             
             {/* Imagem Hero - Visível apenas no mobile */}
-            <div className="relative animate-fade-in lg:hidden" style={{
+            <div className="relative animate-fade-in lg:hidden -my-3" style={{
               animationDelay: '0.3s'
             }}>
               <div className="relative z-10">
-                <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[350px] h-auto rounded-2xl mx-auto" />
+                <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[90vw] h-auto rounded-2xl mx-auto" />
               </div>
               
               {/* Elementos decorativos - reduzidos no mobile */}
