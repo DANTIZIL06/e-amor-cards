@@ -14,10 +14,7 @@ const HeroSection = () => {
           {/* Conteúdo Textual */}
           <div className="text-center lg:text-left space-y-8 animate-fade-in">
             {/* Badge de novidade */}
-            <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full">
-              <Star className="w-4 h-4 text-bordo fill-current" />
-              <span className="text-sm font-semibold text-musgo">NOVO 2025</span>
-            </div>
+            
             
             {/* Título Principal */}
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-musgo leading-tight">
