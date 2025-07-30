@@ -17,12 +17,12 @@ const HeroSection = () => {
             
             
             {/* Título Principal */}
-            <h1 className="text-[32px] sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#506853] leading-[1.5] sm:leading-tight text-center lg:text-left max-w-[340px] sm:max-w-none mx-auto lg:mx-0 px-6 sm:px-0 mb-[14px]" style={{wordBreak: 'normal', whiteSpace: 'normal'}}>
-              Palavras são sementes. <span className="text-[#8A262E]">Escolha plantar bênçãos</span> no coração dos seus filhos
+            <h1 className="text-[32px] sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#506853] leading-[1.4] sm:leading-tight text-center lg:text-left max-w-[90vw] sm:max-w-none mx-auto lg:mx-0 px-4 sm:px-0" style={{wordBreak: 'normal', whiteSpace: 'normal'}}>
+              Palavras são sementes. Escolha plantar <span className="text-[#8A262E]">bênçãos</span> no coração dos seus filhos
             </h1>
             
             {/* Subtítulo */}
-            <p className="text-[18px] sm:text-base md:text-lg text-[#506853] leading-[1.6] sm:leading-relaxed max-w-[340px] sm:max-w-xl mx-auto lg:mx-0 px-6 sm:px-0 text-center lg:text-left">São <span className="font-bold">80 cards com temas essenciais</span> como responsabilidade, pensamentos positivos, superação de medo, sabedoria e muito mais. <span className="font-bold">Todos fundamentados na Palavra de Deus.</span> Uma forma simples e intencional de plantar, todos os dias, palavras que fortalecem a fé, o vínculo emocional e o caráter dos seus filhos.</p>
+            <p className="text-base sm:text-base md:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 px-2 sm:px-0">São <span className="font-bold">80 cards com temas essenciais</span> como responsabilidade, pensamentos positivos, superação de medo, sabedoria e muito mais. <span className="font-bold">Todos fundamentados na Palavra de Deus.</span> Uma forma simples e intencional de plantar, todos os dias, palavras que fortalecem a fé, o vínculo emocional e o caráter dos seus filhos.</p>
             
             {/* Lista de benefícios rápidos */}
             <div className="flex flex-row flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start">
