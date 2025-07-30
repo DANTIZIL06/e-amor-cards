@@ -27,7 +27,7 @@ const ProductSection = () => {
               <img 
                 src={cardsImage} 
                 alt="Declarando Bênçãos - Cards de Autoconfiança e Autodisciplina baseados na Palavra de Deus" 
-                className="w-full max-w-[300px] sm:max-w-none h-auto rounded-2xl shadow-2xl mx-auto"
+                className="w-full max-w-[300px] sm:max-w-none h-auto rounded-2xl mx-auto"
               />
               
               {/* Badge de destaque - ajustado para mobile */}

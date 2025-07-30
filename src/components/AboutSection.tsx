@@ -67,7 +67,7 @@ const AboutSection = () => {
               <img 
                 src={criadoreImage} 
                 alt="Caixa Declarando Bênçãos com card destacado mostrando os 80 temas essenciais" 
-                className="w-full max-w-[300px] sm:max-w-none h-auto rounded-2xl shadow-2xl mx-auto"
+                className="w-full max-w-[300px] sm:max-w-none h-auto rounded-2xl mx-auto"
               />
               
               {/* Elementos decorativos - reduzidos no mobile */}
