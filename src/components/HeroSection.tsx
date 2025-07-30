@@ -18,8 +18,8 @@ const HeroSection = () => {
             
             {/* Título Principal */}
             <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-musgo leading-tight">
-              Transforme a rotina dos seus filhos com a 
-              <span className="text-bordo block">Palavra de Deus</span>
+              Palavras são sementes. Escolha plantar
+              <span className="text-bordo block">bênçãos no coração dos seus filhos</span>
             </h1>
             
             {/* Subtítulo */}
