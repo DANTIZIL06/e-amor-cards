@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import EmotionalTextSection from "@/components/EmotionalTextSection";
 import ProductSection from "@/components/ProductSection";
 import AboutSection from "@/components/AboutSection";
 import FAQSection from "@/components/FAQSection";
@@ -14,6 +15,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <HeroSection />
       <TestimonialsSection />
+      <EmotionalTextSection />
       <BenefitsSection />
       <ProductSection />
       <AboutSection />
