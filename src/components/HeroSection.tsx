@@ -8,7 +8,7 @@ const HeroSection = () => {
       behavior: "smooth"
     });
   };
-  return <section className="gradient-hero min-h-screen flex items-center justify-center px-3 sm:px-6 py-12 sm:py-16 md:pt-16 md:pb-20">
+  return <section className="gradient-hero min-h-screen flex items-center justify-center px-3 sm:px-6 py-12 sm:py-16 md:pt-16 md:pb-10">
       <div className="container mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 md:items-start items-center">
           {/* Conteúdo Textual */}
@@ -50,7 +50,7 @@ const HeroSection = () => {
               
               {/* Elementos decorativos - reduzidos no mobile */}
               <div className="absolute top-1 right-1 w-12 h-12 bg-verde-claro rounded-full opacity-60 animate-bounce-soft"></div>
-              <div className="absolute bottom-1 left-1 w-16 h-16 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft"></div>
+              <div className="absolute bottom-0 left-1 w-16 h-16 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft transform translate-y-1/2"></div>
             </div>
             
             {/* Call to Action */}
@@ -72,7 +72,7 @@ const HeroSection = () => {
             
             {/* Elementos decorativos */}
             <div className="absolute top-1 right-1 sm:top-2 sm:right-2 w-12 h-12 sm:w-24 sm:h-24 bg-verde-claro rounded-full opacity-60 animate-bounce-soft"></div>
-            <div className="absolute bottom-1 left-1 sm:bottom-2 sm:left-2 w-16 h-16 sm:w-32 sm:h-32 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft"></div>
+            <div className="absolute bottom-0 left-1 sm:bottom-0 sm:left-2 w-16 h-16 sm:w-32 sm:h-32 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft transform translate-y-1/2"></div>
           </div>
         </div>
       </div>
