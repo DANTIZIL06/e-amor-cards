@@ -17,9 +17,9 @@ const HeroSection = () => {
             
             
             {/* Título Principal */}
-            <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-musgo leading-relaxed sm:leading-tight text-center lg:text-left">
+            <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-musgo leading-tight">
               Palavras são sementes. Escolha plantar
-              <span className="block"><span className="text-bordo">bênçãos</span> <span className="text-[#506853]">no coração dos seus filhos</span></span>
+              <span className="block text-[#506853]"><span className="text-bordo">bênçãos</span> no coração dos seus filhos</span>
             </h1>
             
             {/* Subtítulo */}
