@@ -41,7 +41,7 @@ const HeroSection = () => {
             </div>
             
             {/* Imagem Hero - Visível apenas no mobile */}
-            <div className="relative animate-fade-in lg:hidden -mt-2 -mb-2" style={{
+            <div className="relative animate-fade-in lg:hidden" style={{
               animationDelay: '0.3s'
             }}>
               <div className="relative z-10">
