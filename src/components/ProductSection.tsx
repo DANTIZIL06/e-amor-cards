@@ -18,33 +18,33 @@ const ProductSection = () => {
   };
 
   return (
-    <section id="produto" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6">
+    <section id="produto" className="py-20 px-4">
       <div className="container mx-auto max-w-7xl">
-        <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Imagem do produto */}
-          <div className="animate-fade-in order-2 lg:order-1">
-            <div className="relative px-4 sm:px-0">
+          <div className="animate-fade-in">
+            <div className="relative">
               <img 
                 src={cardsImage} 
                 alt="Declarando Bênçãos - Cards de Autoconfiança e Autodisciplina baseados na Palavra de Deus" 
-                className="w-full max-w-[300px] sm:max-w-none h-auto rounded-2xl shadow-2xl mx-auto"
+                className="w-full h-auto rounded-2xl shadow-2xl"
               />
               
-              {/* Badge de destaque - ajustado para mobile */}
-              <div className="absolute -top-2 -right-2 sm:-top-4 sm:-right-4 bg-bordo text-white px-2 py-1 sm:px-4 sm:py-2 rounded-full font-bold text-xs sm:text-sm animate-bounce-soft">
+              {/* Badge de destaque */}
+              <div className="absolute -top-4 -right-4 bg-bordo text-white px-4 py-2 rounded-full font-bold text-sm animate-bounce-soft">
                 80 Cards únicos!
               </div>
             </div>
           </div>
           
           {/* Conteúdo informativo */}
-          <div className="space-y-6 sm:space-y-8 animate-fade-in order-1 lg:order-2" style={{ animationDelay: '0.3s' }}>
+          <div className="space-y-8 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             {/* Título */}
-            <div className="text-center lg:text-left">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-musgo mb-3 sm:mb-4">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-musgo mb-4">
                 O que você vai receber
               </h2>
-              <p className="text-sm sm:text-base md:text-lg text-muted-foreground px-2 sm:px-0">
+              <p className="text-lg text-muted-foreground">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
@@ -77,15 +77,15 @@ const ProductSection = () => {
             </div>
             
             {/* Call to action */}
-            <div className="space-y-4 text-center lg:text-left px-4 sm:px-0">
+            <div className="space-y-4">
               <Button 
                 onClick={scrollToTarget}
-                className="btn-primary w-full lg:w-auto px-6 sm:px-8 py-4 sm:py-5 text-sm sm:text-base min-h-[48px]"
+                className="btn-primary w-full lg:w-auto px-8"
               >
-                <Heart className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
+                <Heart className="w-5 h-5 mr-2" />
                 Quero Transformar Nossa Rotina
               </Button>
-              <p className="text-xs sm:text-sm text-muted-foreground">
+              <p className="text-sm text-muted-foreground">
                 💝 Entrega imediata por email • Material digital de alta qualidade
               </p>
             </div>
