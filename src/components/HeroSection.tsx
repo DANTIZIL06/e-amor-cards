@@ -49,8 +49,8 @@ const HeroSection = () => {
               </div>
               
               {/* Elementos decorativos - reduzidos no mobile */}
-              <div className="absolute -top-1 -right-1 w-12 h-12 bg-verde-claro rounded-full opacity-60 animate-bounce-soft"></div>
-              <div className="absolute -bottom-2 -left-2 w-16 h-16 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft"></div>
+              <div className="absolute top-1 right-1 w-12 h-12 bg-verde-claro rounded-full opacity-60 animate-bounce-soft"></div>
+              <div className="absolute bottom-1 left-1 w-16 h-16 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft"></div>
             </div>
             
             {/* Call to Action */}
@@ -71,8 +71,8 @@ const HeroSection = () => {
             </div>
             
             {/* Elementos decorativos */}
-            <div className="absolute -top-1 -right-1 sm:-top-3 sm:-right-3 w-12 h-12 sm:w-24 sm:h-24 bg-verde-claro rounded-full opacity-60 animate-bounce-soft"></div>
-            <div className="absolute -bottom-2 -left-2 sm:-bottom-4 sm:-left-4 w-16 h-16 sm:w-32 sm:h-32 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft"></div>
+            <div className="absolute top-1 right-1 sm:top-2 sm:right-2 w-12 h-12 sm:w-24 sm:h-24 bg-verde-claro rounded-full opacity-60 animate-bounce-soft"></div>
+            <div className="absolute bottom-1 left-1 sm:bottom-2 sm:left-2 w-16 h-16 sm:w-32 sm:h-32 bg-verde-escuro rounded-full opacity-40 animate-pulse-soft"></div>
           </div>
         </div>
       </div>
