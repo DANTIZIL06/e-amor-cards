@@ -17,16 +17,16 @@ const HeroSection = () => {
             
             
             {/* Título Principal */}
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-musgo leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-musgo leading-tight">
               Transforme a rotina dos seus filhos com a 
               <span className="text-bordo block">Palavra de Deus</span>
             </h1>
             
             {/* Subtítulo */}
-            <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 px-2 sm:px-0">São 80 cards com temas essenciais como responsabilidade, pensamentos positivos, superação de medo, sabedoria e muito mais. Todos fundamentados na Palavra de Deus. Uma forma simples e intencional de plantar, todos os dias, palavras que fortalecem a fé, o vínculo emocional e o caráter dos seus filhos.</p>
+            <p className="text-base sm:text-base md:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 px-2 sm:px-0">São 80 cards com temas essenciais como responsabilidade, pensamentos positivos, superação de medo, sabedoria e muito mais. Todos fundamentados na Palavra de Deus. Uma forma simples e intencional de plantar, todos os dias, palavras que fortalecem a fé, o vínculo emocional e o caráter dos seus filhos.</p>
             
             {/* Lista de benefícios rápidos */}
-            <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start">
+            <div className="flex flex-row flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start">
               <div className="flex items-center gap-2 text-musgo justify-center sm:justify-start">
                 <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-bordo fill-current" />
                 <span className="font-medium text-sm sm:text-base">80 Cards únicos</span>
@@ -55,7 +55,7 @@ const HeroSection = () => {
           animationDelay: '0.3s'
         }}>
             <div className="relative z-10 px-4 sm:px-0">
-              <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[300px] sm:max-w-none h-auto rounded-2xl shadow-2xl mx-auto" />
+              <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[400px] sm:max-w-none h-auto rounded-2xl shadow-2xl mx-auto" />
             </div>
             
             {/* Elementos decorativos - reduzidos no mobile */}
