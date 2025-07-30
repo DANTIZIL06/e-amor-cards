@@ -26,24 +26,24 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section className="py-20 px-4 bg-verde-claro/30">
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-verde-claro/30">
       <div className="container mx-auto max-w-7xl">
         {/* Título da seção */}
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-musgo mb-4">
+        <div className="text-center mb-12 sm:mb-16 animate-fade-in">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-musgo mb-3 sm:mb-4">
             O que as mães estão dizendo
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2 sm:px-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
           </p>
         </div>
         
         {/* Grid de depoimentos */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="bg-white p-8 rounded-2xl shadow-[var(--shadow-card)] hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in"
+              className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl shadow-[var(--shadow-card)] hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               {/* Quote icon */}
