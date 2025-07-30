@@ -1,64 +1,39 @@
-import { Star, Quote } from "lucide-react";
-const testimonials = [{
-  name: "Maria Silva",
-  location: "São Paulo, SP",
-  image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
-  rating: 5,
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
-}, {
-  name: "Ana Costa",
-  location: "Rio de Janeiro, RJ",
-  image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-  rating: 5,
-  text: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit."
-}, {
-  name: "Carla Oliveira",
-  location: "Belo Horizonte, MG",
-  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-  rating: 5,
-  text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed do eiusmod tempor incididunt ut labore et dolore."
-}];
+const testimonialImages = [
+  "/lovable-uploads/a4244b28-baaf-4059-966a-f6797884f4ba.png",
+  "/lovable-uploads/f2445aa2-71ec-46c2-9123-e10c5e4f56db.png", 
+  "/lovable-uploads/1e15a620-028a-4f0f-959c-945df53d129c.png",
+  "/lovable-uploads/b2162432-56fc-41e7-bc17-97c6fdc0f17f.png"
+];
 const TestimonialsSection = () => {
   return <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 bg-verde-claro/30">
       <div className="container mx-auto max-w-7xl">
         {/* Título da seção */}
         <div className="text-center mb-12 sm:mb-16 animate-fade-in">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-musgo mb-3 sm:mb-4">O que as mães estão dizendo
-do nosso produto:</h2>
-          <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2 sm:px-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+          <p className="text-sm sm:text-base text-muted-foreground mb-2">
+            Elas já estão declarando bênçãos todos os dias!
           </p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-musgo mb-3 sm:mb-4">
+            O que as mães estão dizendo
+          </h2>
         </div>
         
-        {/* Grid de depoimentos */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {testimonials.map((testimonial, index) => <div key={index} className="bg-white p-4 sm:p-6 md:p-8 rounded-2xl shadow-[var(--shadow-card)] hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{
-          animationDelay: `${index * 0.2}s`
-        }}>
-              {/* Quote icon */}
-              <div className="mb-4">
-                <Quote className="w-8 h-8 text-bordo opacity-60" />
-              </div>
-              
-              {/* Rating */}
-              <div className="flex gap-1 mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />)}
-              </div>
-              
-              {/* Depoimento */}
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                "{testimonial.text}"
-              </p>
-              
-              {/* Perfil */}
-              <div className="flex items-center gap-3">
-                <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full object-cover" />
-                <div>
-                  <h4 className="font-semibold text-musgo">{testimonial.name}</h4>
-                  <p className="text-sm text-muted-foreground">{testimonial.location}</p>
-                </div>
-              </div>
-            </div>)}
+        {/* Grid de prints dos depoimentos */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-5xl mx-auto">
+          {testimonialImages.map((image, index) => (
+            <div 
+              key={index} 
+              className="bg-white/90 p-3 sm:p-4 rounded-2xl shadow-[var(--shadow-card)] hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-fade-in"
+              style={{
+                animationDelay: `${index * 0.2}s`
+              }}
+            >
+              <img 
+                src={image} 
+                alt={`Depoimento ${index + 1}`}
+                className="w-full h-auto rounded-xl object-contain"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>;
