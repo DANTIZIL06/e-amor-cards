@@ -72,9 +72,34 @@ const NewBenefitsSection = () => {
         {/* Decorative elements */}
         <div className="relative mt-16 pt-8 border-t border-secondary/30">
           <div className="text-center">
-            <p className="text-lg lg:text-xl font-leto text-verde-musgo italic max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg lg:text-xl font-leto text-verde-musgo italic max-w-3xl mx-auto leading-relaxed mb-8">
               "Transforme cada momento em uma oportunidade de abençoar e edificar a vida dos seus filhos com palavras que ecoam na eternidade."
             </p>
+            
+            {/* CTA Button */}
+            <div className="mt-10">
+              <button
+                onClick={() => {
+                  const target = document.getElementById('comprar');
+                  if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="btn-primary text-xl lg:text-2xl px-10 py-5 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden"
+              >
+                <span className="relative z-10 flex items-center gap-3">
+                  Quero o Meu Agora
+                  <Heart className="w-6 h-6 group-hover:animate-pulse" />
+                </span>
+                
+                {/* Subtle gradient overlay for extra appeal */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+              </button>
+              
+              <p className="text-sm text-muted-foreground mt-3 font-leto">
+                ✨ Transforme suas palavras em bênçãos eternas
+              </p>
+            </div>
           </div>
           
           {/* Floating decorative elements */}
