@@ -1,3 +1,5 @@
+import { Star } from "lucide-react";
+
 const testimonialImages = [
   "/lovable-uploads/a4244b28-baaf-4059-966a-f6797884f4ba.png",
   "/lovable-uploads/f2445aa2-71ec-46c2-9123-e10c5e4f56db.png", 
@@ -15,6 +17,17 @@ const TestimonialsSection = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-musgo mb-3 sm:mb-4">
             O que as mães estão dizendo
           </h2>
+          
+          {/* Estrelas de avaliação */}
+          <div className="flex justify-center items-center gap-1.5 sm:gap-2 mb-6">
+            {[...Array(5)].map((_, index) => (
+              <Star 
+                key={index}
+                size={20}
+                className="fill-[#F4C542] text-[#F4C542] sm:w-6 sm:h-6"
+              />
+            ))}
+          </div>
         </div>
         
         {/* Grid de prints dos depoimentos */}
