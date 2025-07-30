@@ -6,7 +6,7 @@ const EmotionalTextSection = () => {
           {/* Texto emocional à esquerda */}
           <div className="text-left animate-fade-in">
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-muted-foreground leading-[1.7] max-w-[600px] mb-4 lg:mb-0">
-              Na correria do dia a dia, acabamos dizendo coisas que nunca quisemos dizer aos nossos filhos. Mas mesmo sem intenção, essas palavras deixam marcas, e moldam quem eles serão amanhã. Toda palavra planta uma semente. E com o tempo, ela dá frutos: de medo… ou de fé. De insegurança… ou de identidade.
+              Na correria do dia a dia, acabamos dizendo coisas que nunca quisemos dizer aos nossos filhos. Mas mesmo sem intenção, essas <span className="font-bold">palavras deixam marcas, e moldam quem eles serão amanhã.</span> Toda palavra planta uma semente. E com o tempo, ela dá frutos: de medo… ou de fé. De insegurança… ou de identidade.
             </p>
           </div>
           
