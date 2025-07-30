@@ -45,7 +45,7 @@ const HeroSection = () => {
               animationDelay: '0.3s'
             }}>
               <div className="relative z-10">
-                <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[280px] h-auto rounded-2xl mx-auto" />
+                <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[350px] h-auto rounded-2xl mx-auto" />
               </div>
               
               {/* Elementos decorativos - reduzidos no mobile */}
