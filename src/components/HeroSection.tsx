@@ -10,19 +10,22 @@ const HeroSection = () => {
   };
   return <section className="gradient-hero min-h-screen flex items-center justify-center px-3 sm:px-6 py-12 sm:py-16 md:py-20">
       <div className="container mx-auto max-w-7xl">
-        <div className="grid lg:grid-cols-2 gap-6 lg:gap-8 items-start lg:items-center">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
           {/* Conteúdo Textual */}
-          <div className="text-center lg:text-left animate-fade-in">
+          <div className="text-center lg:text-left space-y-4 animate-fade-in">
+            {/* Badge de novidade */}
+            
+            
             {/* Título Principal */}
-            <h1 className="text-[32px] sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#506853] leading-[1.4] sm:leading-tight text-center lg:text-left max-w-[96vw] sm:max-w-none mx-auto lg:mx-0 mb-4" style={{wordBreak: 'normal', whiteSpace: 'normal'}}>
+            <h1 className="text-[32px] sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#506853] leading-[1.4] sm:leading-tight text-center lg:text-left max-w-[96vw] sm:max-w-none mx-auto lg:mx-0" style={{wordBreak: 'normal', whiteSpace: 'normal'}}>
               Palavras são sementes. Escolha plantar <span className="text-[#8A262E]">bênçãos</span> no coração dos seus filhos
             </h1>
             
             {/* Subtítulo */}
-            <p className="text-base sm:text-base md:text-lg text-muted-foreground max-w-[92vw] sm:max-w-xl mx-auto lg:mx-0 mb-6">São <span className="font-bold">80 cards com temas essenciais</span> como responsabilidade, pensamentos positivos, superação de medo, sabedoria e muito mais. <span className="font-bold">Todos fundamentados na Palavra de Deus.</span> Uma forma simples e intencional de plantar, todos os dias, palavras que fortalecem a fé, o vínculo emocional e o caráter dos seus filhos.</p>
+            <p className="text-base sm:text-base md:text-lg text-muted-foreground max-w-[92vw] sm:max-w-xl mx-auto lg:mx-0">São <span className="font-bold">80 cards com temas essenciais</span> como responsabilidade, pensamentos positivos, superação de medo, sabedoria e muito mais. <span className="font-bold">Todos fundamentados na Palavra de Deus.</span> Uma forma simples e intencional de plantar, todos os dias, palavras que fortalecem a fé, o vínculo emocional e o caráter dos seus filhos.</p>
             
             {/* Lista de benefícios rápidos */}
-            <div className="flex flex-row flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start mb-6 lg:mb-8">
+            <div className="flex flex-row flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start">
               <div className="flex items-center gap-2 text-musgo justify-center sm:justify-start">
                 <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-bordo fill-current" />
                 <span className="font-medium text-sm sm:text-base">80 Cards únicos</span>
@@ -60,11 +63,11 @@ const HeroSection = () => {
           </div>
           
           {/* Imagem Hero - Visível apenas no desktop */}
-          <div className="relative animate-fade-in hidden lg:block lg:self-start" style={{
+          <div className="relative animate-fade-in mt-8 lg:mt-0 hidden lg:block" style={{
             animationDelay: '0.3s'
           }}>
             <div className="relative z-10">
-              <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[450px] h-auto rounded-2xl" />
+              <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[400px] sm:max-w-none h-auto rounded-2xl mx-auto" />
             </div>
             
             {/* Elementos decorativos */}
