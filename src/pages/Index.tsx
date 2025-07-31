@@ -33,6 +33,18 @@ const Index = () => {
       </section>
       
       <BonusSection />
+      
+      {/* Child Image Section */}
+      <section className="py-8 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <img 
+            src="/lovable-uploads/64f2576f-6004-4953-a5d6-d0f36d372d5d.png"
+            alt="Criança feliz segurando carta com declarações bíblicas"
+            className="w-full max-w-md mx-auto h-auto rounded-xl"
+          />
+        </div>
+      </section>
+      
       <ProductFeaturesSection />
       <AboutSection />
       <FAQSection />
