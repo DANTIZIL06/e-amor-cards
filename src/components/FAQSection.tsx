@@ -29,10 +29,10 @@ const FAQSection = () => {
       }}>
           <Accordion type="single" collapsible className="space-y-4 rounded-none px-0 mx-0">
             {faqs.map((faq, index) => <AccordionItem key={index} value={`item-${index}`} className="bg-white shadow-[var(--shadow-card)] border-0 px-3 sm:px-4 md:px-6 mx-2 sm:mx-0 rounded">
-                <AccordionTrigger className="text-left font-semibold text-musgo hover:no-underline py-3 sm:py-4 md:py-6 text-sm sm:text-base">
+                <AccordionTrigger className="text-left font-semibold text-musgo hover:no-underline py-3 sm:py-4 md:py-6 text-base sm:text-lg md:text-xl">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed pb-3 sm:pb-4 md:pb-6 text-xs sm:text-sm">
+                <AccordionContent className="text-muted-foreground leading-relaxed pb-3 sm:pb-4 md:pb-6 text-sm sm:text-base md:text-lg">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>)}
