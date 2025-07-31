@@ -22,13 +22,13 @@ const FinalOfferSection = () => {
           
           {/* Selo de oferta especial */}
           <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
-            <div className="bg-gradient-to-r from-bordo to-primary text-white px-6 py-2 rounded-full shadow-xl animate-pulse-gentle">
-              <div className="flex items-center gap-2">
-                <Clock className="w-4 h-4" />
-                <span className="font-leto font-bold text-sm sm:text-base">
+            <div className="bg-gradient-to-r from-bordo to-primary text-white px-3 py-1 sm:px-6 sm:py-2 rounded-full shadow-xl animate-pulse-gentle">
+              <div className="flex items-center gap-1 sm:gap-2">
+                <Clock className="w-3 h-3 sm:w-4 sm:h-4 hidden xs:block" />
+                <span className="font-leto font-bold text-xs sm:text-sm md:text-base text-center">
                   OFERTA ESPECIAL POR TEMPO LIMITADO
                 </span>
-                <Star className="w-4 h-4 animate-pulse" />
+                <Star className="w-3 h-3 sm:w-4 sm:h-4 animate-pulse hidden xs:block" />
               </div>
             </div>
           </div>
@@ -72,10 +72,10 @@ const FinalOfferSection = () => {
               rel="noopener noreferrer"
               className="inline-block"
             >
-              <button className="btn-primary text-xl lg:text-2xl px-12 py-6 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden animate-pulse-gentle">
-                <span className="relative z-10 flex items-center gap-3">
-                  Quero meu Declarando Bênçãos
-                  <Heart className="w-6 h-6 group-hover:animate-pulse" />
+              <button className="btn-primary text-lg sm:text-xl lg:text-2xl px-6 py-4 sm:px-8 sm:py-5 md:px-12 md:py-6 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden animate-pulse-gentle">
+                <span className="relative z-10 flex flex-col sm:flex-row items-center gap-2 sm:gap-3">
+                  <span className="text-center sm:text-left">Quero meu Declarando Bênçãos</span>
+                  <Heart className="w-5 h-5 sm:w-6 sm:h-6 group-hover:animate-pulse" />
                 </span>
                 
                 {/* Subtle gradient overlay for extra appeal */}
@@ -83,18 +83,18 @@ const FinalOfferSection = () => {
               </button>
             </a>
             
-            <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-muted-foreground">
+            <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 md:gap-8 text-muted-foreground">
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                <span className="font-leto">Compra 100% segura</span>
+                <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full"></div>
+                <span className="font-leto text-sm sm:text-base">Compra 100% segura</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                <span className="font-leto">Garantia de 7 dias</span>
+                <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full"></div>
+                <span className="font-leto text-sm sm:text-base">Garantia de 7 dias</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                <span className="font-leto">Acesso imediato</span>
+                <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full"></div>
+                <span className="font-leto text-sm sm:text-base">Acesso imediato</span>
               </div>
             </div>
           </div>
