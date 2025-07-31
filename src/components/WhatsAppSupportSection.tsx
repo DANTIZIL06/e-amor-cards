@@ -35,6 +35,15 @@ const WhatsAppSupportSection = () => {
           Chamar no WhatsApp
         </a>
 
+        {/* Domus Logo */}
+        <div className="mt-12 flex justify-center">
+          <img 
+            src="/lovable-uploads/14d9c21e-03c2-4833-a824-74b89249ae7b.png"
+            alt="Domus - Lares firmados na fé e no amor"
+            className="w-48 md:w-56 h-auto opacity-80"
+          />
+        </div>
+
         {/* Decorative Elements */}
         <div className="absolute left-4 top-1/2 opacity-10">
           <MessageCircle className="w-16 h-16 text-green-500" />
