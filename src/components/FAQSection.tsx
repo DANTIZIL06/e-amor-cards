@@ -7,28 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "Lorem ipsum dolor sit amet consectetur?",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    question: "O material é para alguma religião específica?",
+    answer: "Não. É pautado na Palavra de Deus, não em doutrinas. Pode ser usado por pais de diferentes denominações cristãs."
   },
   {
-    question: "Adipiscing elit sed do eiusmod tempor?",
-    answer: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
+    question: "Como receberei o material?",
+    answer: "Totalmente digital (PDF). Após o pagamento, você receberá o acesso por e-mail."
   },
   {
-    question: "Incididunt ut labore et dolore magna?",
-    answer: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+    question: "Para qual idade é indicado?",
+    answer: "Desde o ventre até a adolescência — enquanto os filhos estiverem em casa, os pais podem declarar bênçãos."
   },
   {
-    question: "Ut enim ad minim veniam quis nostrud?",
-    answer: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi."
-  },
-  {
-    question: "Exercitation ullamco laboris nisi ut?",
-    answer: "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est."
-  },
-  {
-    question: "Aliquip ex ea commodo consequat duis?",
-    answer: "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
+    question: "Terei suporte?",
+    answer: "Sim! Dúvidas sobre download ou uso? Entre em contato com nosso suporte por e-mail."
   }
 ];
 
@@ -42,7 +34,7 @@ const FAQSection = () => {
             Perguntas Frequentes
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-muted-foreground px-2 sm:px-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+            Tire suas dúvidas sobre o material DOMUS e comece hoje mesmo a transformar sua relação com seus filhos.
           </p>
         </div>
         
