@@ -85,7 +85,7 @@ const NewBenefitsSection = () => {
                     target.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="btn-primary text-xl lg:text-2xl px-10 py-5 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden"
+                className="btn-primary text-xl lg:text-2xl px-10 py-5 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden animate-pulse"
               >
                 <span className="relative z-10 flex items-center gap-3">
                   Quero o Meu Agora
