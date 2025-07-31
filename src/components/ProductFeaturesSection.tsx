@@ -50,15 +50,6 @@ const ProductFeaturesSection = () => {
   return (
     <section className="py-16 px-4 bg-gradient-to-br from-background via-secondary/5 to-accent/5">
       <div className="max-w-5xl mx-auto">
-        {/* Child image centered above title */}
-        <div className="text-center mb-8">
-          <img 
-            src="/lovable-uploads/56751737-a7a4-466b-89fa-04023e87fb0f.png"
-            alt="Criança feliz segurando cartão"
-            className="w-64 md:w-80 mx-auto rounded-2xl shadow-lg"
-          />
-        </div>
-        
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-leto font-bold text-verde-musgo mb-4">
             Veja tudo que você irá receber:
