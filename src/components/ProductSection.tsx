@@ -15,7 +15,7 @@ const ProductSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              Produto Digital Exclusivo
+              Declarações de Fé para o Lar
             </h2>
             <p className="text-lg text-muted-foreground">
               Um material cuidadosamente desenvolvido para fortalecer os vínculos familiares através de declarações bíblicas poderosas.
