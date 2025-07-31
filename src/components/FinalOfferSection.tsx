@@ -33,18 +33,13 @@ const FinalOfferSection = () => {
             </div>
           </div>
 
-          {/* Espaço para a imagem dos produtos */}
+          {/* Imagem dos produtos */}
           <div className="mb-10 mt-8">
-            <div className="bg-gradient-to-br from-secondary/20 to-secondary/40 rounded-2xl h-64 sm:h-80 md:h-96 flex items-center justify-center border-2 border-dashed border-secondary/60">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Heart className="w-8 h-8 text-verde-musgo" />
-                </div>
-                <p className="text-muted-foreground font-leto">
-                  Imagem dos produtos será adicionada aqui
-                </p>
-              </div>
-            </div>
+            <img 
+              src="/lovable-uploads/cd942f4d-4482-45fd-abbe-d16d6aea726d.png"
+              alt="Todos os produtos e bônus inclusos"
+              className="w-full max-w-4xl mx-auto"
+            />
           </div>
 
           {/* Preços em destaque */}
