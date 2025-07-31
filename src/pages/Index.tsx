@@ -20,7 +20,6 @@ const Index = () => {
       <EmotionalTextSection />
       <NewBenefitsSection />
       <ProductSection />
-      <ProductFeaturesSection />
       
       {/* Bonus Image Section */}
       <section className="py-8 px-4 bg-gradient-to-b from-secondary/10 to-background">
@@ -34,6 +33,7 @@ const Index = () => {
       </section>
       
       <BonusSection />
+      <ProductFeaturesSection />
       <AboutSection />
       <FAQSection />
       <GuaranteeSection />
