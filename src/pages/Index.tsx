@@ -10,6 +10,7 @@ import FAQSection from "@/components/FAQSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import FinalOfferSection from "@/components/FinalOfferSection";
 import GuaranteeConversionSection from "@/components/GuaranteeConversionSection";
+import WhatsAppSupportSection from "@/components/WhatsAppSupportSection";
 import Footer from "@/components/Footer";
 import FloatingElements from "@/components/FloatingElements";
 
@@ -40,6 +41,7 @@ const Index = () => {
       <GuaranteeSection />
       <FinalOfferSection />
       <GuaranteeConversionSection />
+      <WhatsAppSupportSection />
       <Footer />
       <FloatingElements />
     </div>
