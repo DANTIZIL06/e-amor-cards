@@ -13,7 +13,7 @@ const faqs = [{
   answer: "Sim! Dúvidas sobre download ou uso? Entre em contato com nosso suporte por e-mail."
 }];
 const FAQSection = () => {
-  return <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6">
+  return <section className="py-12 sm:py-16 px-4 md:py-0 sm:px-[13px]">
       <div className="container mx-auto max-w-4xl py-0 rounded-2xl">
         {/* Título da seção */}
         <div className="text-center mb-12 sm:mb-16 animate-fade-in">
@@ -27,7 +27,7 @@ const FAQSection = () => {
         <div className="animate-fade-in" style={{
         animationDelay: '0.2s'
       }}>
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion type="single" collapsible className="space-y-4 rounded-none px-0 mx-0">
             {faqs.map((faq, index) => <AccordionItem key={index} value={`item-${index}`} className="bg-white shadow-[var(--shadow-card)] border-0 px-3 sm:px-4 md:px-6 mx-2 sm:mx-0 rounded">
                 <AccordionTrigger className="text-left font-semibold text-musgo hover:no-underline py-3 sm:py-4 md:py-6 text-sm sm:text-base">
                   {faq.question}
