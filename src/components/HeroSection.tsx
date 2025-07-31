@@ -55,38 +55,10 @@ const HeroSection = () => {
             
             {/* Call to Action */}
             <div className="space-y-4">
-              <div className="relative group">
-                {/* Glow effect background */}
-                <div className="absolute -inset-1 bg-gradient-to-r from-[#8A262E] via-[#B23F3F] to-[#8A262E] rounded-2xl blur-sm opacity-75 group-hover:opacity-100 transition-all duration-500 animate-pulse"></div>
-                
-                {/* Main button */}
-                <Button 
-                  onClick={scrollToTarget} 
-                  className="relative bg-gradient-to-r from-[#8A262E] to-[#B23F3F] hover:from-[#B23F3F] hover:to-[#8A262E] text-white font-bold text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 w-full lg:w-auto min-h-[48px] rounded-xl shadow-[0_8px_32px_rgba(138,38,46,0.4)] hover:shadow-[0_12px_40px_rgba(138,38,46,0.6)] transform hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 border-2 border-[#8A262E]/30 hover:border-[#B23F3F]/50 group overflow-hidden"
-                >
-                  {/* Shimmer effect */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
-                  
-                  {/* Button content */}
-                  <span className="relative z-10 flex items-center justify-center gap-3">
-                    <Heart className="w-5 h-5 group-hover:animate-pulse" />
-                    Quero o Meu Declarando Bênçãos
-                    <Star className="w-5 h-5 group-hover:animate-bounce" />
-                  </span>
-                </Button>
-              </div>
-              
-              {/* Trust indicators with pulsing effect */}
-              <div className="flex items-center justify-center lg:justify-start gap-4 text-xs sm:text-sm text-muted-foreground">
-                <div className="flex items-center gap-1">
-                  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                  <span>✨ Garantia de 7 dias</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
-                  <span>🔒 Compra 100% segura</span>
-                </div>
-              </div>
+              <Button onClick={scrollToTarget} className="btn-primary text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 w-full lg:w-auto min-h-[48px]">Quero o Meu Declarando Bênçãos</Button>
+              <p className="text-xs sm:text-sm text-muted-foreground">
+                ✨ Garantia de 7 dias • Compra 100% segura
+              </p>
             </div>
           </div>
           
