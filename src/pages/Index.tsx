@@ -5,7 +5,7 @@ import EmotionalTextSection from "@/components/EmotionalTextSection";
 
 import ProductFeaturesSection from "@/components/ProductFeaturesSection";
 import BonusSection from "@/components/BonusSection";
-import AboutSection from "@/components/AboutSection";
+
 import FAQSection from "@/components/FAQSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import PurchaseSection from "@/components/PurchaseSection";
@@ -34,7 +34,7 @@ const Index = () => {
       
       <BonusSection />
       <ProductFeaturesSection />
-      <AboutSection />
+      
       <FAQSection />
       <GuaranteeSection />
       <PurchaseSection />
