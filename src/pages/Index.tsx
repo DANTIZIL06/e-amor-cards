@@ -9,7 +9,6 @@ import BonusSection from "@/components/BonusSection";
 import FAQSection from "@/components/FAQSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import FinalOfferSection from "@/components/FinalOfferSection";
-import PurchaseSection from "@/components/PurchaseSection";
 import Footer from "@/components/Footer";
 import FloatingElements from "@/components/FloatingElements";
 
@@ -39,7 +38,6 @@ const Index = () => {
       <FAQSection />
       <GuaranteeSection />
       <FinalOfferSection />
-      <PurchaseSection />
       <Footer />
       <FloatingElements />
     </div>

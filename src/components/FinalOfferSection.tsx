@@ -2,7 +2,7 @@ import { Heart, Star, Clock } from "lucide-react";
 
 const FinalOfferSection = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-background via-secondary/10 to-secondary/20 relative overflow-hidden">
+    <section id="oferta-final" className="py-16 px-4 bg-gradient-to-b from-background via-secondary/10 to-secondary/20 relative overflow-hidden">
       <div className="max-w-5xl mx-auto">
         {/* Título Principal */}
         <div className="text-center mb-8 animate-fade-in">

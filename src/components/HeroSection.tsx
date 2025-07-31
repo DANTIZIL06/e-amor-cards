@@ -3,7 +3,7 @@ const heroImage = "/lovable-uploads/8913a2e2-9f3b-4107-9976-36c6a93009e4.png";
 import { Heart, Star, Gift } from "lucide-react";
 const HeroSection = () => {
   const scrollToTarget = () => {
-    const element = document.getElementById("comprar");
+    const element = document.getElementById("oferta-final");
     element?.scrollIntoView({
       behavior: "smooth"
     });
