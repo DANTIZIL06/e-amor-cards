@@ -17,7 +17,10 @@ const HeroSection = () => {
             
             
             {/* Título Principal */}
-            <h1 className="text-[32px] sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#506853] leading-[1.4] sm:leading-tight text-center lg:text-left max-w-[96vw] sm:max-w-none mx-auto lg:mx-0" style={{wordBreak: 'normal', whiteSpace: 'normal'}}>
+            <h1 className="text-[32px] sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#506853] leading-[1.4] sm:leading-tight text-center lg:text-left max-w-[96vw] sm:max-w-none mx-auto lg:mx-0" style={{
+            wordBreak: 'normal',
+            whiteSpace: 'normal'
+          }}>
               Palavras são sementes. Escolha plantar <span className="text-[#8A262E]">bênçãos</span> no coração dos seus filhos
             </h1>
             
@@ -42,8 +45,8 @@ const HeroSection = () => {
             
             {/* Imagem Hero - Visível apenas no mobile */}
             <div className="relative animate-fade-in lg:hidden -my-3" style={{
-              animationDelay: '0.3s'
-            }}>
+            animationDelay: '0.3s'
+          }}>
               <div className="relative z-10">
                 <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[90vw] h-auto rounded-2xl mx-auto" />
               </div>
@@ -55,13 +58,8 @@ const HeroSection = () => {
             
             {/* Call to Action */}
             <div className="space-y-4">
-              <button
-                onClick={scrollToTarget}
-                className="btn-primary text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 w-full lg:w-auto min-h-[48px] bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden animate-pulse-gentle"
-              >
-                <span className="relative z-10">
-                  Quero o Meu Declarando Bênçãos
-                </span>
+              <button onClick={scrollToTarget} className="btn-primary text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 w-full lg:w-auto min-h-[48px] bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden animate-pulse-gentle">
+                <span className="relative z-10">Quero Meu Declarando Bênçãos</span>
                 
                 {/* Subtle gradient overlay for extra appeal */}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
@@ -74,8 +72,8 @@ const HeroSection = () => {
           
           {/* Imagem Hero - Visível apenas no desktop */}
           <div className="relative animate-fade-in mt-8 lg:mt-0 hidden lg:block" style={{
-            animationDelay: '0.3s'
-          }}>
+          animationDelay: '0.3s'
+        }}>
             <div className="relative z-10">
               <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[400px] sm:max-w-none h-auto rounded-2xl mx-auto" />
             </div>
