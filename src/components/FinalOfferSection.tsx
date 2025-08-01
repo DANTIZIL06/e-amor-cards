@@ -54,7 +54,7 @@ const FinalOfferSection = () => {
                   4x <span className="text-bordo bg-gradient-to-r from-bordo to-primary bg-clip-text text-transparent">R$7,49</span>
                 </p>
                 <p className="text-sm sm:text-base md:text-lg font-leto text-foreground/60 mt-1">
-                  sem juros no cartão
+                  no cartão
                 </p>
               </div>
             </div>
