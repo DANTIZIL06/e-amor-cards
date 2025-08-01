@@ -43,24 +43,47 @@ const FinalOfferSection = () => {
           </div>
 
           {/* Preços em destaque */}
-          <div className="text-center mb-10">
-            <div className="inline-block bg-gradient-to-br from-verde-claro to-secondary p-8 rounded-2xl shadow-lg border border-secondary/50">
-              <div className="mb-6">
-                <p className="text-2xl sm:text-3xl md:text-4xl font-leto font-bold text-verde-musgo mb-2">
-                  4x de <span className="text-bordo text-4xl sm:text-5xl md:text-6xl">R$7,49</span>
+          <div className="text-center mb-10 space-y-6">
+            {/* Opção de parcelamento - destaque principal */}
+            <div className="mb-8">
+              <p className="text-lg sm:text-xl md:text-2xl font-leto text-foreground/70 mb-2">
+                em até
+              </p>
+              <div className="bg-gradient-to-r from-bordo/5 via-primary/5 to-bordo/5 px-6 py-4 rounded-2xl inline-block">
+                <p className="text-4xl sm:text-5xl md:text-6xl font-leto font-bold text-verde-musgo">
+                  4x <span className="text-bordo bg-gradient-to-r from-bordo to-primary bg-clip-text text-transparent">R$7,49</span>
                 </p>
-                <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4"></div>
-                <p className="text-xl sm:text-2xl md:text-3xl font-leto font-bold text-verde-musgo">
-                  ou Pagamento único <span className="text-bordo">R$29,90</span>
+                <p className="text-sm sm:text-base md:text-lg font-leto text-foreground/60 mt-1">
+                  sem juros no cartão
                 </p>
               </div>
-              
-              {/* Elementos decorativos */}
-              <div className="flex justify-center items-center gap-4 text-verde-musgo">
-                <Star className="w-6 h-6 animate-pulse" />
-                <Heart className="w-8 h-8 text-bordo animate-pulse" fill="currentColor" />
-                <Star className="w-6 h-6 animate-pulse" />
-              </div>
+            </div>
+
+            {/* Divisor elegante */}
+            <div className="flex items-center justify-center gap-4 my-6">
+              <div className="h-px bg-gradient-to-r from-transparent via-secondary to-transparent flex-1 max-w-16"></div>
+              <span className="text-sm font-leto text-foreground/50 px-3">ou</span>
+              <div className="h-px bg-gradient-to-r from-transparent via-secondary to-transparent flex-1 max-w-16"></div>
+            </div>
+            
+            {/* Opção de pagamento único */}
+            <div>
+              <p className="text-2xl sm:text-3xl md:text-4xl font-leto font-bold text-verde-musgo">
+                À vista por apenas{" "}
+                <span className="text-bordo bg-gradient-to-r from-bordo to-primary bg-clip-text text-transparent">
+                  R$29,90
+                </span>
+              </p>
+              <p className="text-sm sm:text-base md:text-lg font-leto text-foreground/60 mt-2">
+                pagamento único
+              </p>
+            </div>
+            
+            {/* Elementos decorativos minimalistas */}
+            <div className="flex justify-center items-center gap-6 mt-8 text-verde-musgo/60">
+              <Star className="w-4 h-4 animate-pulse" />
+              <Heart className="w-6 h-6 text-bordo/70 animate-pulse" fill="currentColor" />
+              <Star className="w-4 h-4 animate-pulse" />
             </div>
           </div>
 
