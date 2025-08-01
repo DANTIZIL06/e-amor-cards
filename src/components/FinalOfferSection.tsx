@@ -8,7 +8,7 @@ const FinalOfferSection = () => {
         <div className="text-center mb-8 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-leto font-bold text-verde-musgo leading-tight mb-4">
             Todos esses produtos deveriam custar{" "}
-            <span className="text-bordo line-through decoration-4">+ de R$255,00</span>
+            <span className="text-bordo">+ de </span><span className="text-bordo line-through decoration-4">R$255,00</span>
           </h2>
           
           {/* Subtítulo com urgência */}
