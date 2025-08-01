@@ -19,7 +19,7 @@ const Footer = () => {
                 <Mail className="w-4 h-4" />
                 contato@domusmaterna.com
               </a>
-              <a href="https://wa.me/553175745932" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://wa.me/5511999999999" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp
               </a>
