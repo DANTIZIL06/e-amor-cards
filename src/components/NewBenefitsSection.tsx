@@ -80,7 +80,7 @@ const NewBenefitsSection = () => {
             <div className="mt-10">
               <button
                 onClick={() => {
-                  const target = document.getElementById('comprar');
+                  const target = document.getElementById('oferta-final');
                   if (target) {
                     target.scrollIntoView({ behavior: 'smooth' });
                   }
