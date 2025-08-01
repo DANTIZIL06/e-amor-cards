@@ -1,12 +1,11 @@
 import { Facebook, Instagram, MessageCircle, Mail, Heart } from "lucide-react";
 const Footer = () => {
-  return (
-    <footer className="bg-primary/5 border-t border-border/50 py-12 px-4">
+  return <footer className="bg-primary/5 border-t border-border/50 py-12 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-primary">Domus Materna</h3>
+            <h3 className="text-lg font-bold text-primary">Domus</h3>
             <p className="text-muted-foreground">
               Fortalecendo famílias através da palavra de Deus e do amor materno.
             </p>
@@ -50,7 +49,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
 export default Footer;
