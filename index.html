@@ -32,5 +32,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (typeof window.sendUtmifyEvent === "function") {
+          window.sendUtmifyEvent("PageView", {
+            category: "Visitante",
+            value: 1
+          });
+        }
+      });
+    </script>
   </body>
 </html>
