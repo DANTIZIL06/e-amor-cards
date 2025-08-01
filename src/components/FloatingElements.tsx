@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, X, Sparkles } from "lucide-react";
@@ -30,7 +31,7 @@ const FloatingElements = () => {
   }, []);
 
   const scrollToTarget = () => {
-    const element = document.getElementById("comprar");
+    const element = document.getElementById("oferta-final");
     element?.scrollIntoView({ behavior: "smooth" });
   };
 
