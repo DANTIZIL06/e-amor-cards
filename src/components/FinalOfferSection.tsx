@@ -44,64 +44,22 @@ const FinalOfferSection = () => {
 
           {/* Preços em destaque */}
           <div className="text-center mb-10">
-            <div className="relative bg-gradient-to-br from-white via-verde-claro/10 to-secondary/5 p-8 rounded-3xl shadow-xl border-2 border-primary/20 overflow-hidden">
-              
-              {/* Background decorativo */}
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent opacity-50"></div>
-              
-              {/* Preço parcelado - destaque principal */}
-              <div className="relative z-10 mb-8">
-                <div className="inline-block bg-gradient-to-r from-bordo to-primary p-6 rounded-2xl shadow-xl text-white transform hover:scale-105 transition-all duration-300">
-                  <div className="text-center">
-                    <p className="text-lg sm:text-xl font-leto font-semibold mb-2 opacity-90">
-                      Apenas
-                    </p>
-                    <div className="flex items-center justify-center gap-2 sm:gap-3">
-                      <span className="text-2xl sm:text-3xl md:text-4xl font-leto font-bold">4x de</span>
-                      <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-leto font-black bg-gradient-to-b from-yellow-200 to-yellow-400 bg-clip-text text-transparent">
-                        R$7,49
-                      </span>
-                    </div>
-                    <p className="text-sm sm:text-base font-leto mt-2 opacity-90">
-                      no cartão de crédito
-                    </p>
-                  </div>
-                </div>
-              </div>
-              
-              {/* Divisor elegante */}
-              <div className="relative z-10 mb-6 flex items-center justify-center">
-                <div className="h-px bg-gradient-to-r from-transparent via-primary to-transparent w-full max-w-xs"></div>
-                <span className="px-4 text-verde-musgo font-leto font-semibold text-lg bg-white rounded-full border border-primary/20 shadow-sm">
-                  ou
-                </span>
-                <div className="h-px bg-gradient-to-r from-transparent via-primary to-transparent w-full max-w-xs"></div>
-              </div>
-              
-              {/* Pagamento único */}
-              <div className="relative z-10">
-                <div className="inline-block bg-gradient-to-br from-verde-musgo to-verde-escuro p-4 rounded-xl shadow-lg text-white">
-                  <div className="text-center">
-                    <p className="text-base sm:text-lg font-leto font-semibold mb-1">
-                      Pagamento único
-                    </p>
-                    <div className="flex items-center justify-center gap-2">
-                      <span className="text-2xl sm:text-3xl md:text-4xl font-leto font-bold bg-gradient-to-b from-yellow-200 to-yellow-400 bg-clip-text text-transparent">
-                        R$29,90
-                      </span>
-                    </div>
-                    <p className="text-xs sm:text-sm font-leto mt-1 opacity-90">
-                      à vista com desconto
-                    </p>
-                  </div>
-                </div>
+            <div className="inline-block bg-gradient-to-br from-verde-claro to-secondary p-8 rounded-2xl shadow-lg border border-secondary/50">
+              <div className="mb-6">
+                <p className="text-2xl sm:text-3xl md:text-4xl font-leto font-bold text-verde-musgo mb-2">
+                  4x de <span className="text-bordo text-4xl sm:text-5xl md:text-6xl">R$7,49</span>
+                </p>
+                <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4"></div>
+                <p className="text-xl sm:text-2xl md:text-3xl font-leto font-bold text-verde-musgo">
+                  ou Pagamento único <span className="text-bordo">R$29,90</span>
+                </p>
               </div>
               
               {/* Elementos decorativos */}
-              <div className="relative z-10 flex justify-center items-center gap-4 mt-6 text-verde-musgo">
-                <Star className="w-5 h-5 animate-pulse" />
-                <Heart className="w-7 h-7 text-bordo animate-pulse" fill="currentColor" />
-                <Star className="w-5 h-5 animate-pulse" />
+              <div className="flex justify-center items-center gap-4 text-verde-musgo">
+                <Star className="w-6 h-6 animate-pulse" />
+                <Heart className="w-8 h-8 text-bordo animate-pulse" fill="currentColor" />
+                <Star className="w-6 h-6 animate-pulse" />
               </div>
             </div>
           </div>
