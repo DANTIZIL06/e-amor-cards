@@ -19,7 +19,7 @@ const Footer = () => {
                 <Mail className="w-4 h-4" />
                 contato@domusmaterna.com
               </a>
-              <a href="https://api.whatsapp.com/send?phone=5531983479083" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://api.whatsapp.com/send?phone=553175745932" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp
               </a>
@@ -30,10 +30,10 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Redes Sociais</h4>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/domus_bra?igsh=ODViZXg4Y2ppMGJx" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="https://www.facebook.com/share/19PsGkCedv/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
             </div>
@@ -44,9 +44,7 @@ const Footer = () => {
           <p className="text-muted-foreground flex items-center justify-center gap-1">
             Feito com <Heart className="w-4 h-4 text-red-500" fill="currentColor" /> para famílias que amam a Deus
           </p>
-          <p className="text-sm text-muted-foreground mt-2">
-            © 2024 Domus Materna. Todos os direitos reservados.
-          </p>
+          <p className="text-sm text-muted-foreground mt-2">© 2024 Domus. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>;
