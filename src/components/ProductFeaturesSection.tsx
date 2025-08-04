@@ -1,49 +1,13 @@
-import { 
-  Heart, 
-  BookOpen, 
-  Package, 
-  Monitor, 
-  Sparkles, 
-  Download, 
-  Infinity 
-} from "lucide-react";
+import { Check, Sparkles } from "lucide-react";
 
 const features = [
-  {
-    icon: Heart,
-    title: "80 cartas com declarações bíblicas prontas",
-    description: "Para abençoar seus filhos com palavras de fé, propósito, identidade e proteção."
-  },
-  {
-    icon: BookOpen,
-    title: "Mini-guia de uso prático",
-    description: "Dicas simples e inspiradoras para incluir as declarações no seu dia a dia com os filhos."
-  },
-  {
-    icon: Package,
-    title: "Molde da caixinha personalizada",
-    description: "Monte a sua própria caixinha com carinho, significado e beleza."
-  },
-  {
-    icon: Monitor,
-    title: "Acesso à plataforma de conteúdo",
-    description: "Visualize, organize e acesse todo o material em um só lugar, com atualizações gratuitas sempre que forem disponibilizadas."
-  },
-  {
-    icon: Sparkles,
-    title: "Material com design exclusivo",
-    description: "Criação delicada, profissional e única, com estética inspiradora para encantar você e sua família."
-  },
-  {
-    icon: Download,
-    title: "Formato 100% digital em PDF",
-    description: "Você poderá acessar, baixar e reutilizar sempre que quiser, com total liberdade."
-  },
-  {
-    icon: Infinity,
-    title: "Acesso irrestrito e vitalício ao material",
-    description: "Pronto para imprimir ou usar no celular, tablet ou computador."
-  }
+  "80 cartas com declarações bíblicas prontas",
+  "Mini-guia de uso prático",
+  "Molde da caixinha personalizada",
+  "Acesso à plataforma de conteúdo",
+  "Material com design exclusivo",
+  "Formato 100% digital em PDF",
+  "Acesso irrestrito e vitalício ao material"
 ];
 
 const ProductFeaturesSection = () => {
@@ -66,52 +30,25 @@ const ProductFeaturesSection = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
         </div>
 
-        <div className="relative">
-          {/* Decorative line for desktop */}
-          <div className="hidden lg:block absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-secondary via-primary to-accent opacity-30"></div>
-          
-          <div className="space-y-8 lg:space-y-12">
-            {features.map((feature, index) => {
-              const IconComponent = feature.icon;
-              const isEven = index % 2 === 0;
-              
-              return (
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-white/60 backdrop-blur-sm p-8 lg:p-12 rounded-3xl shadow-[var(--shadow-card)] border border-secondary/30">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {features.map((feature, index) => (
                 <div 
                   key={index}
-                  className={`flex flex-col lg:flex-row items-start gap-6 lg:gap-8 group ${
-                    isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'
-                  }`}
-                  style={{ animationDelay: `${index * 150}ms` }}
+                  className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-white/40 to-secondary/10 border border-secondary/20 hover:from-white/60 hover:to-secondary/20 transition-all duration-300"
                 >
-                  {/* Icon container */}
-                  <div className="relative flex-shrink-0">
-                    <div className="w-16 h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-white to-secondary/50 rounded-2xl flex items-center justify-center shadow-[var(--shadow-card)] group-hover:shadow-xl transition-all duration-300 group-hover:scale-110 border border-secondary/20">
-                      <IconComponent 
-                        className="w-8 h-8 lg:w-10 lg:h-10 text-verde-musgo" 
-                        strokeWidth={1.5}
-                      />
-                    </div>
-                    
-                    {/* Connector dot for desktop */}
-                    <div className="hidden lg:block absolute -right-6 top-1/2 transform -translate-y-1/2">
-                      <div className="w-3 h-3 bg-primary rounded-full shadow-sm"></div>
+                  <div className="flex-shrink-0">
+                    <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center shadow-sm">
+                      <Check className="w-5 h-5 text-white" strokeWidth={3} />
                     </div>
                   </div>
-
-                  {/* Content */}
-                  <div className={`flex-1 ${isEven ? 'lg:text-left' : 'lg:text-right'}`}>
-                    <div className="bg-white/60 backdrop-blur-sm p-6 lg:p-8 rounded-2xl shadow-[var(--shadow-card)] hover:shadow-xl transition-all duration-300 border border-secondary/30 group-hover:bg-white/80">
-                      <h3 className="text-xl lg:text-2xl font-leto font-bold text-verde-musgo mb-3 leading-tight">
-                        {feature.title}
-                      </h3>
-                      <p className="text-foreground/80 leading-relaxed text-base lg:text-lg">
-                        {feature.description}
-                      </p>
-                    </div>
-                  </div>
+                  <span className="text-verde-musgo font-leto font-semibold text-base lg:text-lg leading-tight">
+                    {feature}
+                  </span>
                 </div>
-              );
-            })}
+              ))}
+            </div>
           </div>
         </div>
 
