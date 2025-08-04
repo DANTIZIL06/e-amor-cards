@@ -42,11 +42,8 @@ const EmotionalTextSection = () => {
                 <img 
                   src="/lovable-uploads/e2075b97-bfbb-40f3-bd78-81d55a0148ea.png" 
                   alt="Produto DOMUS 2025 - Declarando Bênçãos"
-                  className="w-full h-auto rounded-xl object-contain relative z-10 transform transition-transform duration-500 group-hover:scale-[1.02] filter drop-shadow-lg"
+                  className="w-full h-auto object-contain relative z-10 transform transition-transform duration-500 group-hover:scale-[1.02]"
                 />
-                
-                {/* Reflexo sutil na parte inferior */}
-                <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-background/80 to-transparent rounded-xl pointer-events-none"></div>
               </div>
               
               {/* Partículas decorativas flutuantes - apenas no desktop */}
