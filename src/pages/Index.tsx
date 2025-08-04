@@ -23,17 +23,6 @@ const Index = () => {
       <NewBenefitsSection />
       
       
-      {/* Bonus Image Section */}
-      <section className="py-8 px-4 bg-gradient-to-b from-secondary/10 to-background">
-        <div className="max-w-6xl mx-auto">
-          <img 
-            src="/lovable-uploads/1e00974c-5bff-4dc9-a28d-7fbe5b9a17a9.png"
-            alt="Todos os bônus especiais inclusos"
-            className="w-full max-w-5xl mx-auto rounded-2xl shadow-[var(--shadow-card)] hover:shadow-xl transition-shadow duration-300"
-          />
-        </div>
-      </section>
-      
       <BonusSection />
       <ProductFeaturesSection />
       

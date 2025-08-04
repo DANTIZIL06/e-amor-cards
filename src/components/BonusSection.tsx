@@ -46,7 +46,16 @@ const BonusSection = () => {
             <h3 className="text-2xl md:text-3xl lg:text-4xl font-leto font-bold text-primary mb-4">
               BÔNUS ESPECIAIS!
             </h3>
-            <div className="w-32 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
+            <div className="w-32 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-8"></div>
+            
+            {/* Nova imagem dos bônus */}
+            <div className="mb-8">
+              <img 
+                src="/lovable-uploads/c3259da8-734e-400b-8569-930004269b89.png"
+                alt="Todos os bônus especiais inclusos"
+                className="w-full max-w-4xl mx-auto object-contain"
+              />
+            </div>
           </div>
         </div>
 
