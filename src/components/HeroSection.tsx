@@ -40,7 +40,7 @@ const HeroSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
               </button>
               <p className="text-xs sm:text-sm text-muted-foreground">
-                ✨ Garantia de 7 dias • Compra 100% segura
+                Arquivo em PDF
               </p>
             </div>
           </div>
