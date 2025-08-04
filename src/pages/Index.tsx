@@ -7,7 +7,7 @@ import ProductFeaturesSection from "@/components/ProductFeaturesSection";
 import BonusSection from "@/components/BonusSection";
 
 import FAQSection from "@/components/FAQSection";
-import GuaranteeSection from "@/components/GuaranteeSection";
+
 import FinalOfferSection from "@/components/FinalOfferSection";
 import GuaranteeConversionSection from "@/components/GuaranteeConversionSection";
 import WhatsAppSupportSection from "@/components/WhatsAppSupportSection";
@@ -26,7 +26,7 @@ const Index = () => {
       <BonusSection />
       <ProductFeaturesSection />
       
-      <GuaranteeSection />
+      
       <FinalOfferSection />
       <GuaranteeConversionSection />
       <FAQSection />
