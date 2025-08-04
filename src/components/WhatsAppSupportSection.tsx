@@ -44,13 +44,6 @@ const WhatsAppSupportSection = () => {
           />
         </div>
 
-        {/* Decorative Elements */}
-        <div className="absolute left-4 top-1/2 opacity-10">
-          <MessageCircle className="w-16 h-16 text-green-500" />
-        </div>
-        <div className="absolute right-4 top-1/3 opacity-10">
-          <MessageCircle className="w-12 h-12 text-green-500" />
-        </div>
       </div>
     </section>
   );
