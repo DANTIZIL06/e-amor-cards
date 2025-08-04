@@ -43,7 +43,7 @@ const ProductFeaturesSection = () => {
                       <Check className="w-5 h-5 text-white group-hover:animate-pulse" strokeWidth={3} />
                     </div>
                   </div>
-                  <span className="text-verde-musgo font-leto font-semibold text-base lg:text-lg leading-tight group-hover:text-verde-escuro transition-colors duration-300">
+                  <span className="text-verde-musgo font-leto font-semibold text-base lg:text-lg leading-tight transition-all duration-300">
                     {feature}
                   </span>
                 </div>
