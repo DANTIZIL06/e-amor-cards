@@ -39,7 +39,7 @@ const HeroSection = () => {
                 {/* Subtle gradient overlay for extra appeal */}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
               </button>
-              <p className="text-xs text-muted-foreground sm:text-sm font-bold">
+              <p className="text-xs sm:text-sm text-muted-foreground">
                 Arquivo em PDF
               </p>
             </div>
