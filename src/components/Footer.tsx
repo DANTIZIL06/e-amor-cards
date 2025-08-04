@@ -21,7 +21,7 @@ const Footer = () => {
               </a>
               <a href="https://api.whatsapp.com/send?phone=5531983479083" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <MessageCircle className="w-4 h-4" />
-                +55 31 98347‑9083
+                WhatsApp
               </a>
             </div>
           </div>
