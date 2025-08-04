@@ -31,7 +31,7 @@ const HeroSection = () => {
             
             {/* Call to Action */}
             <div className="space-y-3 pt-1">
-              <button onClick={scrollToTarget} className="text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 w-full lg:w-auto min-h-[48px] bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl transition-colors duration-200 font-leto font-bold animate-pulse-gentle">
+              <button onClick={scrollToTarget} className="text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 w-full lg:w-auto min-h-[48px] bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl font-leto font-bold animate-pulse-gentle">
                 Quero Meu Declarando Bênçãos
               </button>
               <p className="text-xs sm:text-sm text-muted-foreground">
