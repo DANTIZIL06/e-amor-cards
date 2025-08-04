@@ -26,7 +26,7 @@ const WhatsAppSupportSection = () => {
 
         {/* WhatsApp CTA Button */}
         <a 
-          href="https://wa.me/553175745932"
+          href="https://api.whatsapp.com/send?phone=5531983479083"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary inline-flex items-center justify-center gap-3 px-8 py-4 text-lg font-semibold rounded-xl bg-green-500 hover:bg-green-600 text-white transition-all duration-300 hover:scale-105 hover:shadow-xl focus:ring-4 focus:ring-green-500/30"
