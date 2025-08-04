@@ -13,7 +13,7 @@ const FinalOfferSection = () => {
           
           {/* Subtítulo com urgência */}
           <p className="text-lg sm:text-xl md:text-2xl text-foreground/80 max-w-4xl mx-auto leading-relaxed font-leto">
-            Mas, somente nesta oferta, o valor promocional que você irá investir hoje para começar a declarar bênçãos intencionalmente sobre seus filhos, que os impactarão por toda a vida, é de apenas:
+            Mas, <strong>somente nesta oferta</strong>, o valor promocional que você irá investir hoje para começar a <strong>declarar bênçãos intencionalmente sobre seus filhos, que os impactaram por toda a vida, é de apenas:</strong>
           </p>
         </div>
 
