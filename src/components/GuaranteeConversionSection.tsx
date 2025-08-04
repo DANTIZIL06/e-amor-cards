@@ -2,7 +2,7 @@ import { Heart, Shield } from "lucide-react";
 
 const GuaranteeConversionSection = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-secondary/20 to-background relative overflow-hidden">
+    <section className="py-8 px-4 bg-gradient-to-b from-secondary/20 to-background relative overflow-hidden">
       <div className="max-w-5xl mx-auto">
         <div className="bg-white rounded-3xl shadow-[var(--shadow-card)] hover:shadow-xl transition-all duration-500 p-8 sm:p-10 md:p-12 border border-secondary/30 relative animate-fade-in">
           
