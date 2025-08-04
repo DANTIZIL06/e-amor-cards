@@ -27,21 +27,6 @@ const HeroSection = () => {
             {/* Subtítulo */}
             <p className="text-base sm:text-base md:text-lg text-muted-foreground max-w-[92vw] sm:max-w-xl mx-auto lg:mx-0">São <span className="font-bold">80 cards com temas essenciais</span> como responsabilidade, pensamentos positivos, superação de medo, sabedoria e muito mais. <span className="font-bold">Todos fundamentados na Palavra de Deus.</span> Uma forma simples e intencional de plantar, todos os dias, palavras que fortalecem a fé, o vínculo emocional e o caráter dos seus filhos.</p>
             
-            {/* Lista de benefícios rápidos */}
-            <div className="flex flex-row flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start">
-              <div className="flex items-center gap-2 text-musgo justify-center sm:justify-start">
-                <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-bordo fill-current" />
-                <span className="font-medium text-sm sm:text-base">80 Cards únicos</span>
-              </div>
-              <div className="flex items-center gap-2 text-musgo justify-center sm:justify-start">
-                <Gift className="w-4 h-4 sm:w-5 sm:h-5 text-bordo fill-current" />
-                <span className="font-medium text-sm sm:text-base">Base bíblica</span>
-              </div>
-              <div className="flex items-center gap-2 text-musgo justify-center sm:justify-start">
-                <Star className="w-4 h-4 sm:w-5 sm:h-5 text-bordo fill-current" />
-                <span className="font-medium text-sm sm:text-base">Prático e amoroso</span>
-              </div>
-            </div>
             
             {/* Imagem Hero - Visível apenas no mobile */}
             <div className="relative animate-fade-in lg:hidden -my-3" style={{
