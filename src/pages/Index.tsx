@@ -26,8 +26,8 @@ const Index = () => {
       <BonusSection />
       <ProductFeaturesSection />
       
-      <FAQSection />
       <GuaranteeSection />
+      <FAQSection />
       <FinalOfferSection />
       <GuaranteeConversionSection />
       <WhatsAppSupportSection />
