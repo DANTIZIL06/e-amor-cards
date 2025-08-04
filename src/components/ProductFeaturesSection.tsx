@@ -55,7 +55,7 @@ const ProductFeaturesSection = () => {
           <img 
             src="/lovable-uploads/3622e002-2050-4293-887f-25ddd8b38824.png"
             alt="Criança feliz segurando carta"
-            className="mx-auto w-72 md:w-80 lg:w-96 h-auto object-contain"
+            className="mx-auto w-[389px] md:w-[432px] lg:w-[518px] h-auto object-contain"
           />
         </div>
 
