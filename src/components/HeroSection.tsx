@@ -31,8 +31,14 @@ const HeroSection = () => {
             
             {/* Call to Action */}
             <div className="space-y-3 pt-1">
-              <button onClick={scrollToTarget} className="text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 w-full lg:w-auto min-h-[48px] bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl font-leto font-bold animate-pulse-gentle">
-                Quero Meu Declarando Bênçãos
+              <button onClick={scrollToTarget} className="btn-primary w-full lg:w-auto min-h-[48px] text-base sm:text-lg md:text-xl lg:text-2xl px-6 py-4 sm:px-8 sm:py-5 md:px-12 md:py-6 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden animate-pulse-gentle">
+                <span className="relative z-10 flex items-center justify-center gap-1.5 sm:gap-2 md:gap-3">
+                  <span className="text-center whitespace-nowrap">Quero meu Declarando Bênçãos</span>
+                  <Heart className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 group-hover:animate-pulse flex-shrink-0" />
+                </span>
+                
+                {/* Subtle gradient overlay for extra appeal */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
               </button>
               <p className="text-xs sm:text-sm text-muted-foreground">
                 ✨ Garantia de 7 dias • Compra 100% segura
