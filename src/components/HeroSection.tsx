@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-const heroImage = "/lovable-uploads/94734f48-8f9a-4077-a747-f1e0bfc9234e.png";
+const heroImage = "/lovable-uploads/84dab5cc-a416-4b59-8f29-67c1665cf61f.png";
 import { Heart, Star, Gift } from "lucide-react";
 const HeroSection = () => {
   const scrollToTarget = () => {
@@ -25,12 +25,12 @@ const HeroSection = () => {
             <p className="text-base sm:text-base md:text-lg text-muted-foreground max-w-[92vw] sm:max-w-xl mx-auto lg:mx-0">São <span className="font-bold">80 cards com temas essenciais</span> como responsabilidade, pensamentos positivos, superação de medo, sabedoria e muito mais. <span className="font-bold">Todos fundamentados na Palavra de Deus.</span> Uma forma simples e intencional de plantar, todos os dias, palavras que fortalecem a fé, o vínculo emocional e o caráter dos seus filhos.</p>
             
             {/* Imagem Hero - Visível apenas no mobile */}
-            <div className="lg:hidden pt-2 pb-1">
-              <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[90vw] h-auto rounded-2xl mx-auto" />
+            <div className="lg:hidden pt-1 pb-0">
+              <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[85vw] h-auto rounded-2xl mx-auto" />
             </div>
             
             {/* Call to Action */}
-            <div className="space-y-3 pt-1">
+            <div className="space-y-2 pt-2">
               <button onClick={scrollToTarget} className="btn-primary w-full lg:w-auto min-h-[48px] text-base sm:text-lg md:text-xl lg:text-2xl px-6 py-4 sm:px-8 sm:py-5 md:px-12 md:py-6 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden animate-pulse-gentle">
                 <span className="relative z-10 flex items-center justify-center">
                   <span className="text-center whitespace-nowrap">Quero meu Declarando Bênçãos</span>
