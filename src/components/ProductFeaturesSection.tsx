@@ -53,9 +53,9 @@ const ProductFeaturesSection = () => {
         {/* Child image */}
         <div className="text-center mb-12">
           <img 
-            src="/lovable-uploads/14101df4-5a7a-49ad-9424-b5dfa45f9936.png"
-            alt="Criança feliz"
-            className="mx-auto w-64 md:w-80 lg:w-96 h-auto"
+            src="/lovable-uploads/3622e002-2050-4293-887f-25ddd8b38824.png"
+            alt="Criança feliz segurando carta"
+            className="mx-auto w-72 md:w-80 lg:w-96 h-auto object-contain"
           />
         </div>
 
