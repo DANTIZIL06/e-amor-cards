@@ -36,14 +36,14 @@ const ProductFeaturesSection = () => {
               {features.map((feature, index) => (
                 <div 
                   key={index}
-                  className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-white/40 to-secondary/10 border border-secondary/20 hover:from-white/60 hover:to-secondary/20 transition-all duration-300"
+                  className="group flex items-center gap-4 p-4 rounded-xl bg-gradient-to-r from-white/40 to-secondary/10 border border-secondary/20 hover:from-verde-claro/20 hover:to-verde-musgo/10 hover:border-verde-musgo/30 hover:shadow-lg transition-all duration-300 ease-in-out cursor-pointer transform hover:scale-[1.02]"
                 >
                   <div className="flex-shrink-0">
-                    <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center shadow-sm">
-                      <Check className="w-5 h-5 text-white" strokeWidth={3} />
+                    <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center shadow-sm group-hover:shadow-md group-hover:scale-110 transition-all duration-300 ease-in-out">
+                      <Check className="w-5 h-5 text-white group-hover:animate-pulse" strokeWidth={3} />
                     </div>
                   </div>
-                  <span className="text-verde-musgo font-leto font-semibold text-base lg:text-lg leading-tight">
+                  <span className="text-verde-musgo font-leto font-semibold text-base lg:text-lg leading-tight group-hover:text-verde-escuro transition-colors duration-300">
                     {feature}
                   </span>
                 </div>
