@@ -100,22 +100,6 @@ const BonusSection = () => {
           })}
         </div>
 
-        {/* Bottom Section */}
-        <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-primary/10 via-secondary/20 to-primary/10 rounded-2xl p-8 border border-secondary/40">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <Heart className="w-6 h-6 text-primary animate-pulse" />
-              <p className="text-xl lg:text-2xl font-leto font-bold text-verde-musgo italic">
-                "Tudo isso é seu quando você escolhe transformar sua família hoje!"
-              </p>
-              <Heart className="w-6 h-6 text-primary animate-pulse" />
-            </div>
-            
-            <p className="text-lg text-foreground/80 font-leto">
-              ✨ Valor total dos bônus: <span className="font-bold text-primary">mais de R$ 200,00</span> - mas hoje é <span className="font-bold text-verde-musgo">GRÁTIS</span> para você!
-            </p>
-          </div>
-        </div>
 
         {/* Floating decorative elements */}
         <div className="absolute top-10 left-10 w-6 h-6 bg-primary/20 rounded-full animate-pulse opacity-60"></div>
