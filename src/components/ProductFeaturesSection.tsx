@@ -23,7 +23,7 @@ const ProductFeaturesSection = () => {
           />
         </div>
 
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-leto font-bold text-verde-musgo mb-4">
             Veja tudo que você irá receber:
           </h2>
