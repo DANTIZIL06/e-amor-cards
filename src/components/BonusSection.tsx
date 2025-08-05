@@ -30,17 +30,17 @@ const bonuses = [
 
 const BonusSection = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-secondary/10 to-background relative overflow-hidden">
+    <section className="py-10 px-4 bg-gradient-to-b from-secondary/10 to-background relative overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           {/* Texto principal */}
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-leto font-bold text-verde-musgo leading-tight mb-10">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-leto font-bold text-verde-musgo leading-tight mb-6">
             Comprando hoje, você também receberá
           </h2>
           
           {/* Imagem dos bônus */}
-          <div className="mb-8">
+          <div className="mb-6">
             <img 
               src="/lovable-uploads/c3259da8-734e-400b-8569-930004269b89.png"
               alt="Todos os bônus especiais inclusos"
@@ -50,7 +50,7 @@ const BonusSection = () => {
           
           {/* Texto de destaque abaixo da imagem */}
           <div className="relative">
-            <div className="inline-flex items-center gap-3 mb-6">
+            <div className="inline-flex items-center gap-3 mb-4">
               <Gift className="w-8 h-8 text-primary animate-pulse" />
               <h3 className="text-2xl md:text-3xl lg:text-4xl font-leto font-bold text-primary">
                 BÔNUS ESPECIAIS!

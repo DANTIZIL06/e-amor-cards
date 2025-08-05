@@ -1,4 +1,4 @@
-import { Check, Sparkles } from "lucide-react";
+import { Check } from "lucide-react";
 
 const features = [
   "80 cartas com declarações bíblicas prontas",
@@ -12,10 +12,10 @@ const features = [
 
 const ProductFeaturesSection = () => {
   return (
-    <section className="py-12 md:py-16 px-4 bg-gradient-to-br from-background via-secondary/5 to-accent/5">
+    <section className="py-8 md:py-10 px-4 bg-gradient-to-br from-background via-secondary/5 to-accent/5">
       <div className="max-w-5xl mx-auto">
         {/* Child image */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <img 
             src="/lovable-uploads/3622e002-2050-4293-887f-25ddd8b38824.png"
             alt="Criança feliz segurando carta"
@@ -23,8 +23,8 @@ const ProductFeaturesSection = () => {
           />
         </div>
 
-        <div className="text-center mb-8 md:mb-16">
-          <h2 className="text-3xl md:text-4xl font-leto font-bold text-verde-musgo mb-4">
+        <div className="text-center mb-6 md:mb-10">
+          <h2 className="text-3xl md:text-4xl font-leto font-bold text-verde-musgo mb-3">
             Veja tudo que você irá receber:
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full"></div>
@@ -51,7 +51,6 @@ const ProductFeaturesSection = () => {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );

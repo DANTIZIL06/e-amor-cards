@@ -30,9 +30,9 @@ const benefits = [
 
 const NewBenefitsSection = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-background to-secondary/20">
+    <section className="py-10 px-4 bg-gradient-to-b from-background to-secondary/20">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-leto font-bold text-verde-musgo mb-4">
             Conheça os Benefícios!
           </h2>
@@ -70,14 +70,14 @@ const NewBenefitsSection = () => {
         </div>
 
         {/* Decorative elements */}
-        <div className="relative mt-16 pt-8 border-t border-secondary/30">
+        <div className="relative mt-10 pt-6 border-t border-secondary/30">
           <div className="text-center">
-            <p className="text-lg lg:text-xl font-leto text-verde-musgo italic max-w-3xl mx-auto leading-relaxed mb-8">
+            <p className="text-lg lg:text-xl font-leto text-verde-musgo italic max-w-3xl mx-auto leading-relaxed mb-6">
               "Transforme cada momento em uma oportunidade de abençoar e edificar a vida dos seus filhos com palavras que ecoam na eternidade."
             </p>
             
             {/* CTA Button */}
-            <div className="mt-10">
+            <div className="mt-6">
               <button
                 onClick={() => {
                   const target = document.getElementById('oferta-final');

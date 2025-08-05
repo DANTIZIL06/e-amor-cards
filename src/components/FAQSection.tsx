@@ -13,10 +13,10 @@ const faqs = [{
   answer: "Sim! Dúvidas sobre download ou uso? Entre em contato com nosso suporte por e-mail."
 }];
 const FAQSection = () => {
-  return <section className="py-12 sm:py-16 px-4 md:py-0 sm:px-[13px]">
+  return <section className="py-8 sm:py-10 px-4 md:py-0 sm:px-[13px]">
       <div className="container mx-auto max-w-4xl py-0 rounded-2xl">
         {/* Título da seção */}
-        <div className="text-center mb-12 sm:mb-16 animate-fade-in">
+        <div className="text-center mb-8 sm:mb-10 animate-fade-in">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-musgo mb-3 sm:mb-4">
             Perguntas Frequentes
           </h2>

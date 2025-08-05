@@ -1,6 +1,6 @@
 const EmotionalTextSection = () => {
   return (
-    <section className="py-8 lg:py-10 px-4 sm:px-6 relative overflow-hidden">
+    <section className="py-6 lg:py-8 px-4 sm:px-6 relative overflow-hidden">
       {/* Gradiente de fundo sutil */}
       <div className="absolute inset-0 bg-gradient-to-br from-verde-claro/20 via-background to-verde-escuro/30"></div>
       
@@ -9,7 +9,7 @@ const EmotionalTextSection = () => {
       <div className="hidden lg:block absolute bottom-0 right-1/4 w-40 h-40 bg-verde-escuro/10 rounded-full blur-3xl"></div>
       
       <div className="container mx-auto max-w-7xl relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12 xl:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-12 items-center">
           {/* Texto emocional à esquerda */}
           <div className="text-left animate-fade-in">
             <div className="relative">

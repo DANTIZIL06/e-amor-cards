@@ -8,11 +8,11 @@ const HeroSection = () => {
       behavior: "smooth"
     });
   };
-  return <section className="gradient-hero min-h-screen flex items-center justify-center px-3 sm:px-6 py-12 sm:py-16 md:pt-16 md:pb-10">
+  return <section className="gradient-hero min-h-screen flex items-center justify-center px-3 sm:px-6 py-8 sm:py-12 md:pt-12 md:pb-8">
       <div className="container mx-auto max-w-7xl">
-        <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 md:items-start items-center">
+        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 md:items-start items-center">
           {/* Conteúdo Textual */}
-          <div className="text-center lg:text-left space-y-3">
+          <div className="text-center lg:text-left space-y-2">
             {/* Título Principal */}
             <h1 className="text-[32px] sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#506853] leading-[1.4] sm:leading-tight text-center lg:text-left max-w-[96vw] sm:max-w-none mx-auto lg:mx-0" style={{
             wordBreak: 'normal',
@@ -30,7 +30,7 @@ const HeroSection = () => {
             </div>
             
             {/* Call to Action */}
-            <div className="space-y-2 pt-2">
+            <div className="space-y-1 pt-1">
               <button onClick={scrollToTarget} className="btn-primary w-full lg:w-auto min-h-[48px] text-base sm:text-lg md:text-xl lg:text-2xl px-6 py-4 sm:px-8 sm:py-5 md:px-12 md:py-6 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden animate-pulse-gentle">
                 <span className="relative z-10 flex items-center justify-center">
                   <span className="text-center whitespace-nowrap">Quero meu Declarando Bênçãos</span>
@@ -44,7 +44,7 @@ const HeroSection = () => {
           </div>
           
           {/* Imagem Hero - Visível apenas no desktop */}
-          <div className="mt-8 lg:mt-0 hidden lg:block">
+          <div className="mt-6 lg:mt-0 hidden lg:block">
             <img src={heroImage} alt="Produtos Declarando Bênçãos - Planner, quadro e cards de bênção baseados na Palavra de Deus" className="w-full max-w-[400px] sm:max-w-none h-auto rounded-2xl mx-auto" />
           </div>
         </div>

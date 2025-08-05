@@ -2,10 +2,10 @@ import { MessageCircle } from "lucide-react";
 
 const WhatsAppSupportSection = () => {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-background to-secondary/5">
+    <section className="py-10 px-4 bg-gradient-to-b from-background to-secondary/5">
       <div className="max-w-4xl mx-auto text-center">
         {/* WhatsApp Icon with Animation */}
-        <div className="flex justify-center mb-8">
+        <div className="flex justify-center mb-6">
           <div className="relative">
             <div className="absolute inset-0 bg-green-500/20 rounded-full animate-ping"></div>
             <div className="relative bg-green-500 p-6 rounded-full shadow-lg">
@@ -15,7 +15,7 @@ const WhatsAppSupportSection = () => {
         </div>
 
         {/* Title and Description */}
-        <div className="mb-10">
+        <div className="mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Ficou com dúvidas?
           </h2>
@@ -36,7 +36,7 @@ const WhatsAppSupportSection = () => {
         </a>
 
         {/* Domus Logo */}
-        <div className="mt-12 flex justify-center">
+        <div className="mt-8 flex justify-center">
           <img 
             src="/lovable-uploads/14d9c21e-03c2-4833-a824-74b89249ae7b.png"
             alt="Domus - Lares firmados na fé e no amor"

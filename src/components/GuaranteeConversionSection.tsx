@@ -2,12 +2,12 @@ import { Heart, Shield } from "lucide-react";
 
 const GuaranteeConversionSection = () => {
   return (
-    <section className="pt-4 pb-8 px-4 bg-gradient-to-b from-secondary/20 to-background relative overflow-hidden">
+    <section className="pt-3 pb-6 px-4 bg-gradient-to-b from-secondary/20 to-background relative overflow-hidden">
       <div className="max-w-5xl mx-auto">
-        <div className="bg-white rounded-3xl shadow-[var(--shadow-card)] hover:shadow-xl transition-all duration-500 p-8 sm:p-10 md:p-12 border border-secondary/30 relative animate-fade-in">
+        <div className="bg-white rounded-3xl shadow-[var(--shadow-card)] hover:shadow-xl transition-all duration-500 p-6 sm:p-8 md:p-10 border border-secondary/30 relative animate-fade-in">
           
           {/* Título da seção */}
-          <div className="text-center mb-8 sm:mb-10">
+          <div className="text-center mb-6 sm:mb-8">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-leto font-bold text-verde-musgo leading-tight mb-4">
               Ainda tem dúvidas?
             </h2>
@@ -15,7 +15,7 @@ const GuaranteeConversionSection = () => {
           </div>
 
           {/* Selo de garantia e conteúdo principal */}
-          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12 mb-10">
+          <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-10 mb-8">
             
             {/* Selo de garantia */}
             <div className="flex-shrink-0 animate-fade-in" style={{ animationDelay: '0.2s' }}>
@@ -71,7 +71,7 @@ const GuaranteeConversionSection = () => {
             </a>
             
             {/* Garantia resumida */}
-            <div className="mt-6 flex items-center justify-center gap-2 text-muted-foreground">
+            <div className="mt-4 flex items-center justify-center gap-2 text-muted-foreground">
               <Shield className="w-4 h-4 text-green-500" />
               <span className="font-leto text-sm sm:text-base">
                 7 dias de garantia incondicional

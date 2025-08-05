@@ -1,6 +1,6 @@
 import { Facebook, Instagram, MessageCircle, Mail, Heart } from "lucide-react";
 const Footer = () => {
-  return <footer className="bg-primary/5 border-t border-border/50 py-12 px-4">
+  return <footer className="bg-primary/5 border-t border-border/50 py-8 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-border/50 text-center">
+        <div className="mt-6 pt-6 border-t border-border/50 text-center">
           <p className="text-muted-foreground flex items-center justify-center gap-1">
             Feito com <Heart className="w-4 h-4 text-red-500" fill="currentColor" /> para famílias que amam a Deus
           </p>

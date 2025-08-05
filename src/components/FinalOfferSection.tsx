@@ -1,9 +1,9 @@
 import { Heart } from "lucide-react";
 const FinalOfferSection = () => {
-  return <section id="oferta-final" className="pt-16 pb-8 px-4 bg-gradient-to-b from-background via-secondary/10 to-secondary/20 relative overflow-hidden">
+  return <section id="oferta-final" className="pt-8 pb-6 px-4 bg-gradient-to-b from-background via-secondary/10 to-secondary/20 relative overflow-hidden">
       <div className="max-w-4xl mx-auto">
         {/* Título Principal - mantido exatamente como estava */}
-        <div className="text-center mb-8 animate-fade-in">
+        <div className="text-center mb-6 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-leto font-bold text-verde-musgo leading-tight mb-4">
             Todos esses produtos deveriam custar{" "}
             <span style={{
@@ -20,17 +20,17 @@ const FinalOfferSection = () => {
         </div>
 
         {/* Container compacto da oferta */}
-        <div className="bg-white rounded-3xl shadow-lg p-6 sm:p-8 md:p-10 border border-secondary/30 relative animate-fade-in text-center" style={{
+        <div className="bg-white rounded-3xl shadow-lg p-4 sm:p-6 md:p-8 border border-secondary/30 relative animate-fade-in text-center" style={{
         animationDelay: '0.2s'
       }}>
           
           {/* Imagem do produto */}
-          <div className="mb-8">
+          <div className="mb-6">
             <img src="/lovable-uploads/b91f38ac-2836-4471-9dcf-1cff6b10ee91.png" alt="Todos os produtos e bônus inclusos" className="w-full max-w-3xl mx-auto" />
           </div>
 
           {/* Preço parcelado */}
-          <div className="mb-4">
+          <div className="mb-3">
             <p className="text-6xl sm:text-7xl md:text-8xl font-leto font-bold" style={{
             color: '#8A262E'
           }}>
@@ -39,7 +39,7 @@ const FinalOfferSection = () => {
           </div>
 
           {/* Preço à vista */}
-          <div className="mb-6">
+          <div className="mb-4">
             <p className="text-lg sm:text-xl md:text-2xl font-leto font-bold" style={{
             color: '#506853'
           }}>
@@ -48,7 +48,7 @@ const FinalOfferSection = () => {
           </div>
 
           {/* Texto de urgência */}
-          <div className="mb-3">
+          <div className="mb-2">
             <p style={{
             color: '#506853'
           }} className="text-base sm:text-lg md:text-xl font-leto whitespace-nowrap font-medium">
