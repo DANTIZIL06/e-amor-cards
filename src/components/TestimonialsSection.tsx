@@ -7,11 +7,11 @@ const TestimonialsSection = () => {
         <div className="text-center mb-8 sm:mb-10 animate-fade-in">
           
           {/* Estrelas de avaliação */}
-          <div className="flex justify-center items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+          <div className="flex justify-center items-center gap-2 sm:gap-3 mb-2 sm:mb-4">
             {[...Array(5)].map((_, index) => <Star key={index} className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 fill-[#F4C542] text-[#F4C542] drop-shadow-sm" />)}
           </div>
           
-          <h2 className="text-2xl sm:text-3xl font-bold text-musgo mb-3 sm:mb-4 md:text-5xl">
+          <h2 className="text-3xl sm:text-3xl font-bold text-musgo mb-3 sm:mb-4 md:text-5xl">
             O que as mães estão dizendo
           </h2>
           
