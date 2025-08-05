@@ -15,9 +15,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Contato</h4>
             <div className="space-y-2">
-              <a href="mailto:contatodomus2025@outllok.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:contato@domusmaterna.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="w-4 h-4" />
-                contatodomus2025@outllok.com
+                contato@domusmaterna.com
               </a>
               <a href="https://api.whatsapp.com/send?phone=553175745932" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
                 <MessageCircle className="w-4 h-4" />
