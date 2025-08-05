@@ -6,7 +6,7 @@ const TestimonialsSection = () => {
         {/* Título da seção */}
         <div className="text-center mb-8 sm:mb-10 animate-fade-in">
           
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-musgo mb-4 sm:mb-6">
+          <h2 className="text-2xl sm:text-3xl font-bold text-musgo mb-4 sm:mb-6 md:text-5xl">
             O que as mães estão dizendo
           </h2>
           
