@@ -1,14 +1,16 @@
 import { Heart } from "lucide-react";
-
 const FinalOfferSection = () => {
-  return (
-    <section id="oferta-final" className="py-16 px-4 bg-gradient-to-b from-background via-secondary/10 to-secondary/20 relative overflow-hidden">
+  return <section id="oferta-final" className="py-16 px-4 bg-gradient-to-b from-background via-secondary/10 to-secondary/20 relative overflow-hidden">
       <div className="max-w-4xl mx-auto">
         {/* Título Principal - mantido exatamente como estava */}
         <div className="text-center mb-8 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-leto font-bold text-verde-musgo leading-tight mb-4">
             Todos esses produtos deveriam custar{" "}
-            <span style={{ color: '#8A262E' }}>+ de </span><span style={{ color: '#8A262E' }} className="line-through decoration-4">R$255,00</span>
+            <span style={{
+            color: '#8A262E'
+          }}>+ de </span><span style={{
+            color: '#8A262E'
+          }} className="line-through decoration-4">R$255,00</span>
           </h2>
           
           {/* Subtítulo com urgência - mantido exatamente como estava */}
@@ -18,46 +20,45 @@ const FinalOfferSection = () => {
         </div>
 
         {/* Container compacto da oferta */}
-        <div className="bg-white rounded-3xl shadow-lg p-6 sm:p-8 md:p-10 border border-secondary/30 relative animate-fade-in text-center" style={{ animationDelay: '0.2s' }}>
+        <div className="bg-white rounded-3xl shadow-lg p-6 sm:p-8 md:p-10 border border-secondary/30 relative animate-fade-in text-center" style={{
+        animationDelay: '0.2s'
+      }}>
           
           {/* Imagem do produto */}
           <div className="mb-8">
-            <img 
-              src="/lovable-uploads/b91f38ac-2836-4471-9dcf-1cff6b10ee91.png"
-              alt="Todos os produtos e bônus inclusos"
-              className="w-full max-w-3xl mx-auto"
-            />
+            <img src="/lovable-uploads/b91f38ac-2836-4471-9dcf-1cff6b10ee91.png" alt="Todos os produtos e bônus inclusos" className="w-full max-w-3xl mx-auto" />
           </div>
 
           {/* Preço parcelado */}
           <div className="mb-4">
-            <p className="text-6xl sm:text-7xl md:text-8xl font-leto font-bold" style={{ color: '#8A262E' }}>
+            <p className="text-6xl sm:text-7xl md:text-8xl font-leto font-bold" style={{
+            color: '#8A262E'
+          }}>
               4x R$7,49
             </p>
           </div>
 
           {/* Preço à vista */}
           <div className="mb-6">
-            <p className="text-lg sm:text-xl md:text-2xl font-leto font-bold" style={{ color: '#506853' }}>
+            <p className="text-lg sm:text-xl md:text-2xl font-leto font-bold" style={{
+            color: '#506853'
+          }}>
               ou R$29,90 à vista
             </p>
           </div>
 
           {/* Texto de urgência */}
           <div className="mb-3">
-            <p className="text-base sm:text-lg md:text-xl font-leto font-bold whitespace-nowrap" style={{ color: '#506853' }}>
+            <p style={{
+            color: '#506853'
+          }} className="text-base sm:text-lg md:text-xl font-leto whitespace-nowrap font-semibold">
               OFERTA ESPECIAL POR TEMPO LIMITADO
             </p>
           </div>
 
           {/* Botão CTA Principal - mantido exatamente como estava */}
           <div className="text-center">
-            <a
-              href="https://pay.cakto.com.br/9eteqvz_485076"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full lg:w-auto inline-block"
-            >
+            <a href="https://pay.cakto.com.br/9eteqvz_485076" target="_blank" rel="noopener noreferrer" className="w-full lg:w-auto inline-block">
               <button className="btn-primary w-full lg:w-auto min-h-[48px] text-base sm:text-lg md:text-xl lg:text-2xl px-6 py-4 sm:px-8 sm:py-5 md:px-12 md:py-6 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl shadow-[var(--shadow-cta)] hover:shadow-2xl transform hover:scale-105 active:scale-95 transition-all duration-300 font-leto font-bold group relative overflow-hidden animate-pulse-gentle">
                 <span className="relative z-10 flex items-center justify-center gap-1.5 sm:gap-2 md:gap-3">
                   <span className="text-center whitespace-nowrap">Quero meu Declarando Bênçãos</span>
@@ -86,8 +87,6 @@ const FinalOfferSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FinalOfferSection;
