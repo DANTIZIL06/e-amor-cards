@@ -52,16 +52,6 @@ const ProductFeaturesSection = () => {
           </div>
         </div>
 
-        {/* Bottom decorative element */}
-        <div className="text-center mt-8 md:mt-12 pt-6 border-t border-secondary/30">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary/10 to-accent/10 rounded-full border border-primary/20">
-            <Sparkles className="w-5 h-5 text-primary" />
-            <span className="text-verde-musgo font-leto font-semibold">
-              Tudo isso por um preço que vai te surpreender
-            </span>
-            <Sparkles className="w-5 h-5 text-primary" />
-          </div>
-        </div>
       </div>
     </section>
   );
