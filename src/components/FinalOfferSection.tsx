@@ -1,6 +1,6 @@
 import { Heart } from "lucide-react";
 const FinalOfferSection = () => {
-  return <section id="oferta-final" className="py-16 px-4 bg-gradient-to-b from-background via-secondary/10 to-secondary/20 relative overflow-hidden">
+  return <section id="oferta-final" className="pt-16 pb-8 px-4 bg-gradient-to-b from-background via-secondary/10 to-secondary/20 relative overflow-hidden">
       <div className="max-w-4xl mx-auto">
         {/* Título Principal - mantido exatamente como estava */}
         <div className="text-center mb-8 animate-fade-in">
