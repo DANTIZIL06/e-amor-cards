@@ -51,7 +51,7 @@ const FinalOfferSection = () => {
           <div className="mb-3">
             <p style={{
             color: '#506853'
-          }} className="text-base sm:text-lg md:text-xl font-leto whitespace-nowrap font-semibold">
+          }} className="text-base sm:text-lg md:text-xl font-leto whitespace-nowrap font-medium">
               OFERTA ESPECIAL POR TEMPO LIMITADO
             </p>
           </div>
