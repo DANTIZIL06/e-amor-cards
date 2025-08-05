@@ -31,21 +31,21 @@ const FinalOfferSection = () => {
 
           {/* Preço parcelado */}
           <div className="mb-4">
-            <p className="text-4xl sm:text-5xl md:text-6xl font-leto font-bold" style={{ color: '#8A262E' }}>
+            <p className="text-6xl sm:text-7xl md:text-8xl font-leto font-bold" style={{ color: '#8A262E' }}>
               4x R$7,49
             </p>
           </div>
 
           {/* Preço à vista */}
           <div className="mb-6">
-            <p className="text-xl sm:text-2xl md:text-3xl font-leto font-bold" style={{ color: '#506853' }}>
+            <p className="text-lg sm:text-xl md:text-2xl font-leto font-bold" style={{ color: '#506853' }}>
               ou R$29,90 à vista
             </p>
           </div>
 
           {/* Texto de urgência */}
-          <div className="mb-8">
-            <p className="text-lg sm:text-xl md:text-2xl font-leto font-bold" style={{ color: '#506853' }}>
+          <div className="mb-3">
+            <p className="text-base sm:text-lg md:text-xl font-leto font-bold whitespace-nowrap" style={{ color: '#506853' }}>
               OFERTA ESPECIAL POR TEMPO LIMITADO
             </p>
           </div>
