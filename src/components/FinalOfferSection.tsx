@@ -70,20 +70,7 @@ const FinalOfferSection = () => {
               </button>
             </a>
             
-            <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 md:gap-8 text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full"></div>
-                <span className="font-leto text-sm sm:text-base">Compra 100% segura</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full"></div>
-                <span className="font-leto text-sm sm:text-base">Garantia de 7 dias</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 sm:w-3 sm:h-3 bg-green-500 rounded-full"></div>
-                <span className="font-leto text-sm sm:text-base">Acesso imediato</span>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
