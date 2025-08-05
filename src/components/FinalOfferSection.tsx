@@ -3,7 +3,7 @@ const FinalOfferSection = () => {
   return <section id="oferta-final" className="pt-16 pb-8 px-4 bg-gradient-to-b from-background via-secondary/10 to-secondary/20 relative overflow-hidden">
       <div className="max-w-4xl mx-auto">
         {/* Título Principal - mantido exatamente como estava */}
-        <div className="text-center mb-6 animate-fade-in">
+        <div className="text-center mb-8 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-leto font-bold text-verde-musgo leading-tight mb-4">
             Todos esses produtos deveriam custar{" "}
             <span style={{
@@ -25,7 +25,7 @@ const FinalOfferSection = () => {
       }}>
           
           {/* Imagem do produto */}
-          <div className="mb-6">
+          <div className="mb-8">
             <img src="/lovable-uploads/b91f38ac-2836-4471-9dcf-1cff6b10ee91.png" alt="Todos os produtos e bônus inclusos" className="w-full max-w-3xl mx-auto" />
           </div>
 
@@ -39,7 +39,7 @@ const FinalOfferSection = () => {
           </div>
 
           {/* Preço à vista */}
-          <div className="mb-4">
+          <div className="mb-6">
             <p className="text-lg sm:text-xl md:text-2xl font-leto font-bold" style={{
             color: '#506853'
           }}>
