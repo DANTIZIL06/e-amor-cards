@@ -33,18 +33,14 @@ const FinalOfferSection = () => {
           <div className="mb-3">
             <p className="text-6xl sm:text-7xl md:text-8xl font-leto font-bold" style={{
             color: '#8A262E'
-          }}>
-              4x R$7,49
-            </p>
+          }}>4x R$4,49</p>
           </div>
 
           {/* Preço à vista */}
           <div className="mb-4">
             <p className="text-lg sm:text-xl md:text-2xl font-leto font-bold" style={{
             color: '#506853'
-          }}>
-              ou R$29,90 à vista
-            </p>
+          }}>ou R$17,99 à vista</p>
           </div>
 
           {/* Texto de urgência */}
